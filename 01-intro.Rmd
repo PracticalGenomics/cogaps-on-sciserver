@@ -11,7 +11,7 @@ ottrpal::set_knitr_image_path()
 
 ## Target Audience  
 
-The course is intended for ...
+The course is intended for anyone! No software or prior coding experience is required.
 
 ## Curriculum  
 
