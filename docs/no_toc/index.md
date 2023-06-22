@@ -1,12 +1,12 @@
 ---
-title: "Course Name"
-date: "May, 2023"
+title: "CoGAPS on SciServer"
+date: "June, 2023"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-description: "Description about Course/Book."
+description: "This introductory course will provide a quick overview of how CoGAPS can provide new insights into single cell datasets. Through these exercises you will analyze a real dataset using the SciServer compute platform."
 favicon: assets/dasl_favicon.ico
 output:
     bookdown::word_document2:
