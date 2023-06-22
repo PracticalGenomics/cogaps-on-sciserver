@@ -3,6 +3,7 @@
 
 # Introduction
 
+This introductory course will provide a quick overview of how CoGAPS can provide new insights into single cell datasets. Through these exercises you will analyze a real dataset using the SciServer compute platform.
 
 ## Motivation
 
