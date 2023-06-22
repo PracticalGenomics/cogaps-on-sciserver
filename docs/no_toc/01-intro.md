@@ -9,7 +9,7 @@
 
 ## Target Audience  
 
-The course is intended for ...
+The course is intended for anyone! No software or prior coding experience is required.
 
 ## Curriculum  
 
@@ -32,7 +32,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-05-24                  
+##  date     2023-06-22                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
