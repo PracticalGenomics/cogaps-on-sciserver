@@ -1,6 +1,6 @@
-book_filename: "Course_Name"
-chapter_name: "Chapter "
-repo: https://github.com/jhudsl/OTTR_Template/
+book_filename: "CoGAPS on SciServer"
+chapter_name: "Chapter 1"
+repo: https://github.com/PracticalGenomics/cogaps-on-sciserver
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-chapter_of_course.Rmd",
@@ -10,5 +10,5 @@ new_session: yes
 delete_merged_file: true
 language:
   ui:
-    chapter_name: "Chapter"
+    chapter_name: "Chapter 1"
 output_dir: "docs"
