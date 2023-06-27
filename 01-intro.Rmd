@@ -21,7 +21,7 @@ The course covers:
 
 - How to join the compute platform, SciServer
 - How to access and launch cellxgene
-- How to load packages, data, configure/run CoGAPS, visualize patterns, find pattern markers, and document software
+- How to load packages, data, configure/run CoGAPS, visualize patterns, find pattern markers, and document software in RStudio
 
 
 ```{r}
