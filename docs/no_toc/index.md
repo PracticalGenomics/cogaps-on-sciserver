@@ -15,11 +15,11 @@ output:
 
 # About this Course {-}
 
-This introductory course will provide a quick overview of how CoGAPS can provide new insights into single cell datasets. Through these exercises you will analyze a real dataset using the SciServer compute platform.
+This introductory course will provide a quick overview of how the Bayesian NMF algorithm, CoGAPS (Coordinated Gene Activity across Pattern Subsets), can provide new insights into single cell datasets. Through these exercises you will analyze a real dataset using the SciServer compute platform.
 
 ## Available course formats
 
-This course is available in multiple formats which allows you to take it in the way that best suits your needs. You can take it for certificate which can be for free or fee.
+This course is available in multiple formats which allows you to take it in the way that best suits your needs. You can take it for certificate (for free) using Leanpub.
 
 - The material for this course can be viewed without login requirement on this [Bookdown website](https://practicalgenomics.github.io/cogaps-on-sciserver/). This format might be most appropriate for you if you rely on screen-reader technology.
 - This course can be taken for [free certification through Leanpub](LINK HERE).
