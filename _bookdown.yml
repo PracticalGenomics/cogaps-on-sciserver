@@ -1,6 +1,6 @@
 book_filename: "CoGAPS on SciServer"
 chapter_name: "Chapter "
-repo: https://github.com/PracticalGenomics/cogaps-on-sciserver
+repo: https://practicalgenomics.github.io/cogaps-on-sciserver/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
             "02-chapter_of_course.Rmd",
