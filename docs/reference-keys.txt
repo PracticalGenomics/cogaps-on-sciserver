@@ -17,4 +17,11 @@ instructions
 confirm-access
 launch-cellxgene
 edit-dashboard
+rrstudio
+learning-objectives-2
+introduction-1
+instructions-1
+start-up-a-c-moor-rstudio-compute-container
+complete-your-first-swirl-tutorial
+managing-your-c-moor-rstudio-compute-container
 references-1
