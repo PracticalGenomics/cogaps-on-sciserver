@@ -23,7 +23,7 @@ This chapter will cover:
 
 ## Create an Account on SciServer
 
-1. Open [sciserver.org](sciserver.org) in a web browser.
+1. Open [sciserver.org](https://sciserver.org) in a web browser.
   a. TIP: Bookmark this page so that you can easily access it throughout the course.
 2. Click "**Login to Sciserver**"
 3. Click "**Create a new account**"
@@ -39,7 +39,7 @@ This chapter will cover:
 
 ### Resources
 
-[sciserver.org](sciserver.org)
+[sciserver.org](https://sciserver.org)
 [How to add a bookmark in Chrome](https://support.google.com/chrome/answer/188842)
 [SciServer Help page](https://sciserver.org/support/how-to-use-sciserver/)
 
