@@ -6,7 +6,7 @@ documentclass: book
 bibliography: [book.bib]
 biblio-style: apalike
 link-citations: yes
-description: "This introductory course will provide a quick overview of how CoGAPS can be run through the SciServer compute platform."
+description: "This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform."
 favicon: assets/dasl_favicon.ico
 output:
     bookdown::word_document2:
