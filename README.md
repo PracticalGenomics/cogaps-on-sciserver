@@ -14,10 +14,11 @@ This course introduces a quick overview of how CoGAPS can provide new insights i
 
 ## Learning Objectives
 
-This course will teach learners to:  
+This course covers:  
 
-- {You can use https://www.bobpikegroup.com/trainer-blog/5-steps-to-writing-clear-and-measurable-learning-objectives to define some learning objectives here}
-- {More learning objectives}
+- How to join the compute platform, SciServer
+- How to access and launch cellxgene
+- How to load packages, data, configure/run CoGAPS, visualize patterns, find pattern markers, and document software in RStudio
 
 ## Encountering problems?
 
