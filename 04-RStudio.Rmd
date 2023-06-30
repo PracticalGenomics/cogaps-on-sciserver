@@ -20,35 +20,34 @@ Before beginning this assignment, you should have already created a SciServer ac
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
 
-&nbsp; a. If you’re already logged in, click “**Home**” in the top menu bar to return to the home page.
+  &nbsp; a. If you’re already logged in, click “**Home**” in the top menu bar to return to the home page.
 
 2. Scroll down to the second set of boxes and click “**Compute**”.
 3. Click "**Create container**".
   
-&nbsp; a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell 
-your containers apart. You could name this container “RStudio”, since you’ll be using it to access RStudio.
+  &nbsp; a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell your containers apart. You could name this container “RStudio”, since you’ll be using it to access RStudio.
   
-&nbsp; b. In the “**Compute Image**” drop-down menu, select “**C-MOOR RStudio**”.
+  &nbsp; b. In the “**Compute Image**” drop-down menu, select “**C-MOOR RStudio**”.
   
-&nbsp; c. Under “**Data Volumes**”, check the box next to “**C-MOOR Data**”.
+  &nbsp; c. Under “**Data Volumes**”, check the box next to “**C-MOOR Data**”.
  
-&nbsp; d. Click “**Create**”. This may take a moment.
+  &nbsp; d. Click “**Create**”. This may take a moment.
 
 4. You should now see a new entry in your list of containers.
  
-&nbsp; a. “Created At” should be a few moments ago.
+  &nbsp; a. “Created At” should be a few moments ago.
 
-&nbsp; b. “Name” should be the name you chose.
+  &nbsp; b. “Name” should be the name you chose.
 
-&nbsp; c. “Image” should be “C-MOOR RStudio".
+  &nbsp; c. “Image” should be “C-MOOR RStudio".
 
 5. Start your C-MOOR RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab. 
   
-&nbsp; a. You should see RStudio.
+  &nbsp; a. You should see RStudio.
 
-![RStudio startup screen](/resources/images/RStudio.png)
+![RStudio startup screen](/cogaps-on-sciserver/resources/images/RStudio.png)
 
-&nbsp; b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.
+  &nbsp; b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.
 
 **If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.**
 
@@ -56,43 +55,43 @@ your containers apart. You could name this container “RStudio”, since you’
 
 1. Watch this 90 second video tour of RStudio:
 
-<iframe src="https://www.youtube.com/watch?v=n3uue28FD0w" width="672" height="400px"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n3uue28FD0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 2. If you’re not there already, go to the SciServer compute page and start up the C-MOOR RStudio container.
   
-&nbsp; a. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
+  &nbsp; a. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
  
-&nbsp; b. If you’re already logged in, click “**Home**” in the top menu bar to return to the home page.
+  &nbsp; b. If you’re already logged in, click “**Home**” in the top menu bar to return to the home page.
  
-&nbsp; c. Scroll down to the second set of boxes and click “**Compute**”.
+  &nbsp; c. Scroll down to the second set of boxes and click “**Compute**”.
  
-&nbsp; d. Start your C-MOOR container by clicking on its name.
+  &nbsp; d. Start your C-MOOR container by clicking on its name.
 
 3. In the **R console** window of RStudio (bottom left, or if you have no files open, it may take up the whole left side of the screen) type these commands to start up swirl:
   
-&nbsp; a. ```library(swirl)```
+  &nbsp; a. ```library(swirl)```
  
-&nbsp; b. ```swirl()```
+  &nbsp; b. ```swirl()```
 
 4. Install the course, following the instructions provided by swirl:
  
-&nbsp; a. Enter your name
+  &nbsp; a. Enter your name
 
-&nbsp; b. Press <ENTER>
+  &nbsp; b. Press <ENTER>
 
-&nbsp; c. Select 1, 2, or 3
+  &nbsp; c. Select 1, 2, or 3
 
-&nbsp; d. Install the course: "**R Programming: The basics of programming in R**".
+  &nbsp; d. Install the course: "**R Programming: The basics of programming in R**".
 
 5. Complete your first swirl lesson.
   
-&nbsp; a. Choose the "**R programming**" course.
+  &nbsp; a. Choose the "**R programming**" course.
 
-&nbsp; b. Choose Lesson 1 "**Basic Building Blocks**".
+  &nbsp; b. Choose Lesson 1 "**Basic Building Blocks**".
 
-&nbsp; c. Follow the instructions provided by swirl to complete the lesson.
+  &nbsp; c. Follow the instructions provided by swirl to complete the lesson.
 
-&nbsp; d. When you get to the end, it will ask if you want credit on Coursera. Choose “**No**” (we are not using Coursera for this course).
+  &nbsp; d. When you get to the end, it will ask if you want credit on Coursera. Choose “**No**” (we are not using Coursera for this course).
 
 ### Managing your C-MOOR RStudio compute container
 
