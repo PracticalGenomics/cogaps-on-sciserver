@@ -3,7 +3,8 @@ chapter_name: "Chapter "
 repo: https://practicalgenomics.github.io/cogaps-on-sciserver/
 rmd_files: ["index.Rmd",
             "01-intro.Rmd",
-            "02-chapter_of_course.Rmd",
+            "02-Getting-Started-With-SciServer.Rmd",
+            "03-cellxgene.Rmd",
             "About.Rmd",
             "References.Rmd"]
 new_session: yes
