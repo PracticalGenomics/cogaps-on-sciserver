@@ -23,7 +23,7 @@ This chapter will cover:
 
 ## Create an Account on SciServer
 
-1. Open [sciserver.og](sciserver.org) in a web browser.
+1. Open [sciserver.org](sciserver.org) in a web browser.
   a. TIP: Bookmark this page so that you can easily access it throughout the course.
 2. Click "**Login to Sciserver**"
 3. Click "**Create a new account**"
