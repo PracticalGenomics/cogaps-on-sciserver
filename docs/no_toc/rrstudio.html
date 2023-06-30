@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 References | CoGAPS on SciServer</title>
+  <title>Chapter 4 R/RStudio | CoGAPS on SciServer</title>
   <meta name="description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 References | CoGAPS on SciServer" />
+  <meta property="og:title" content="Chapter 4 R/RStudio | CoGAPS on SciServer" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 References | CoGAPS on SciServer" />
+  <meta name="twitter:title" content="Chapter 4 R/RStudio | CoGAPS on SciServer" />
   
   <meta name="twitter:description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="about-the-authors.html"/>
-
+<link rel="prev" href="cellxgene.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -212,9 +212,149 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="references-1" class="section level1" number="5">
-<h1><span class="header-section-number">Chapter 5</span> References</h1>
+<div id="rrstudio" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> R/RStudio</h1>
+<div id="learning-objectives-2" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Learning Objectives</h2>
+<ul>
+<li>Start up a C-MOOR RStudio compute container</li>
+<li>Find and use features of RStudio: R console, help window, viewer, environment window, history.</li>
+<li>Complete your first “swirl” tutorial</li>
+</ul>
+</div>
+<div id="introduction-1" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> Introduction</h2>
+<p>Before beginning this assignment, you should have already created a SciServer account and submitted your SciServer username to your instructor. In this assignment you will learn how to set up the “C-MOOR RStudio” compute container on SciServer. You will learn the basics of how to use RStudio, and will practice doing R coding within RStudio. You will also do your first “swirl” lesson. Swirl is a set of R tutorials that run inside RStudio.</p>
+</div>
+<div id="instructions-1" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Instructions</h2>
+<div id="start-up-a-c-moor-rstudio-compute-container" class="section level3" number="4.3.1">
+<h3><span class="header-section-number">4.3.1</span> Start up a “C-MOOR RStudio” compute container</h3>
+<ol style="list-style-type: decimal">
+<li>Open <a href="https://sciserver.org">sciserver.org</a> in a web browser and log in to your account.
+  a. If you’re already logged in, click “<strong>Home</strong>” in the top menu bar to return to the home page.</li>
+<li>Scroll down to the second set of boxes and click “<strong>Compute</strong>”.</li>
+<li>Click “<strong>Create container</strong>”.
+  a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell your containers apart. You could name this container “RStudio”, since you’ll be using it to access RStudio.
+  b. In the “<strong>Compute Image</strong>” drop-down menu, select “<strong>C-MOOR RStudio</strong>”.
+  c. Under “<strong>Data Volumes</strong>”, check the box next to “<strong>C-MOOR Data</strong>”.
+  d. Click “<strong>Create</strong>”. This may take a moment.</li>
+<li>You should now see a new entry in your list of containers.
+  a. “Created At” should be a few moments ago.
+  b. “Name” should be the name you chose.
+  c. “Image” should be “C-MOOR RStudio”.</li>
+<li>Start your C-MOOR RStudio container by clicking on its <strong>name</strong> (whatever name you chose when you created the container). This will open in a new tab.
+  a. You should see RStudio.</li>
+</ol>
+<div class="figure">
+<img src="/resources/images/RStudio.png" alt="" />
+<p class="caption">RStudio startup screen</p>
+</div>
+<p>  b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.</p>
+<p><strong>If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.</strong></p>
+</div>
+<div id="complete-your-first-swirl-tutorial" class="section level3" number="4.3.2">
+<h3><span class="header-section-number">4.3.2</span> Complete your first swirl tutorial</h3>
+<ol style="list-style-type: decimal">
+<li>Watch this 90 second video tour of RStudio:</li>
+</ol>
+<iframe src="https://www.youtube.com/watch?v=n3uue28FD0w" width="672" height="400px">
+</iframe>
+<ol start="2" style="list-style-type: decimal">
+<li>If you’re not there already, go to the SciServer compute page and start up the C-MOOR RStudio container.
+  a. Open <a href="https://sciserver.org">sciserver.org</a> in a web browser and log in to your account.
+  b. If you’re already logged in, click “<strong>Home</strong>” in the top menu bar to return to the home page.
+  c. Scroll down to the second set of boxes and click “<strong>Compute</strong>”.
+  d. Start your C-MOOR container by clicking on its name.</li>
+<li>In the <strong>R console</strong> window of RStudio (bottom left, or if you have no files open, it may take up the whole left side of the screen) type these commands to start up swirl:
+  a. <code>library(swirl)</code>
+  b. <code>swirl()</code></li>
+<li>Install the course, following the instructions provided by swirl:
+  a. Enter your name
+  b. Press <ENTER>
+  c. Select 1, 2, or 3
+  d. Install the course: “<strong>R Programming: The basics of programming in R</strong>”.</li>
+<li>Complete your first swirl lesson.
+  a. Choose the “<strong>R programming</strong>” course.
+  b. Choose Lesson 1 “<strong>Basic Building Blocks</strong>”.
+  c. Follow the instructions provided by swirl to complete the lesson.
+  d. When you get to the end, it will ask if you want credit on Coursera. Choose “<strong>No</strong>” (we are not using Coursera for this course).</li>
+</ol>
+</div>
+<div id="managing-your-c-moor-rstudio-compute-container" class="section level3" number="4.3.3">
+<h3><span class="header-section-number">4.3.3</span> Managing your C-MOOR RStudio compute container</h3>
+<p>If you delete your container now, you will lose <strong>all</strong> your progress in swirl. If you need to return to any part of the tutorial later, it is a good idea to keep the container until you are sure that you’re finished using it.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="rrstudio.html#cb7-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
+<pre><code>## ─ Session info ───────────────────────────────────────────────────────────────
+##  setting  value                       
+##  version  R version 4.0.2 (2020-06-22)
+##  os       Ubuntu 20.04.5 LTS          
+##  system   x86_64, linux-gnu           
+##  ui       X11                         
+##  language (EN)                        
+##  collate  en_US.UTF-8                 
+##  ctype    en_US.UTF-8                 
+##  tz       Etc/UTC                     
+##  date     2023-06-30                  
+## 
+## ─ Packages ───────────────────────────────────────────────────────────────────
+##  package     * version date       lib source                            
+##  assertthat    0.2.1   2019-03-21 [1] RSPM (R 4.0.5)                    
+##  bookdown      0.24    2023-03-28 [1] Github (rstudio/bookdown@88bc4ea) 
+##  bslib         0.4.2   2022-12-16 [1] CRAN (R 4.0.2)                    
+##  cachem        1.0.7   2023-02-24 [1] CRAN (R 4.0.2)                    
+##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
+##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
+##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.0)                    
+##  desc          1.2.0   2018-05-01 [1] RSPM (R 4.0.3)                    
+##  devtools      2.3.2   2020-09-18 [1] RSPM (R 4.0.3)                    
+##  digest        0.6.25  2020-02-23 [1] RSPM (R 4.0.0)                    
+##  ellipsis      0.3.1   2020-05-15 [1] RSPM (R 4.0.3)                    
+##  evaluate      0.20    2023-01-17 [1] CRAN (R 4.0.2)                    
+##  fansi         0.4.1   2020-01-08 [1] RSPM (R 4.0.0)                    
+##  fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.0.2)                    
+##  fs            1.5.0   2020-07-31 [1] RSPM (R 4.0.3)                    
+##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
+##  hms           0.5.3   2020-01-08 [1] RSPM (R 4.0.0)                    
+##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
+##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.0.2)                    
+##  jsonlite      1.7.1   2020-09-07 [1] RSPM (R 4.0.2)                    
+##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
+##  lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.0.2)                    
+##  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.2)                    
+##  memoise       2.0.1   2021-11-26 [1] CRAN (R 4.0.2)                    
+##  ottrpal       1.0.1   2023-03-28 [1] Github (jhudsl/ottrpal@151e412)   
+##  pillar        1.9.0   2023-03-22 [1] CRAN (R 4.0.2)                    
+##  pkgbuild      1.1.0   2020-07-13 [1] RSPM (R 4.0.2)                    
+##  pkgconfig     2.0.3   2019-09-22 [1] RSPM (R 4.0.3)                    
+##  pkgload       1.1.0   2020-05-29 [1] RSPM (R 4.0.3)                    
+##  prettyunits   1.1.1   2020-01-24 [1] RSPM (R 4.0.3)                    
+##  processx      3.4.4   2020-09-03 [1] RSPM (R 4.0.2)                    
+##  ps            1.4.0   2020-10-07 [1] RSPM (R 4.0.2)                    
+##  R6            2.4.1   2019-11-12 [1] RSPM (R 4.0.0)                    
+##  readr         1.4.0   2020-10-05 [1] RSPM (R 4.0.2)                    
+##  remotes       2.2.0   2020-07-21 [1] RSPM (R 4.0.3)                    
+##  rlang         1.1.0   2023-03-14 [1] CRAN (R 4.0.2)                    
+##  rmarkdown     2.10    2023-03-28 [1] Github (rstudio/rmarkdown@02d3c25)
+##  rprojroot     2.0.3   2022-04-02 [1] CRAN (R 4.0.2)                    
+##  sass          0.4.5   2023-01-24 [1] CRAN (R 4.0.2)                    
+##  sessioninfo   1.1.1   2018-11-05 [1] RSPM (R 4.0.3)                    
+##  stringi       1.5.3   2020-09-09 [1] RSPM (R 4.0.3)                    
+##  stringr       1.4.0   2019-02-10 [1] RSPM (R 4.0.3)                    
+##  testthat      3.0.1   2023-03-28 [1] Github (R-lib/testthat@e99155a)   
+##  tibble        3.2.1   2023-03-20 [1] CRAN (R 4.0.2)                    
+##  usethis       1.6.3   2020-09-17 [1] RSPM (R 4.0.2)                    
+##  utf8          1.1.4   2018-05-24 [1] RSPM (R 4.0.3)                    
+##  vctrs         0.6.1   2023-03-22 [1] CRAN (R 4.0.2)                    
+##  withr         2.3.0   2020-09-22 [1] RSPM (R 4.0.2)                    
+##  xfun          0.26    2023-03-28 [1] Github (yihui/xfun@74c2a66)       
+##  yaml          2.2.1   2020-02-01 [1] RSPM (R 4.0.3)                    
+## 
+## [1] /usr/local/lib/R/site-library
+## [2] /usr/local/lib/R/library</code></pre>
 
+</div>
+</div>
 </div>
 <hr>
 <center> 
@@ -229,8 +369,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="about-the-authors.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-
+<a href="cellxgene.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
