@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Introduction | CoGAPS on SciServer</title>
+  <title>Chapter 2 Getting Started with SciServer | CoGAPS on SciServer</title>
   <meta name="description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Introduction | CoGAPS on SciServer" />
+  <meta property="og:title" content="Chapter 2 Getting Started with SciServer | CoGAPS on SciServer" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Introduction | CoGAPS on SciServer" />
+  <meta name="twitter:title" content="Chapter 2 Getting Started with SciServer | CoGAPS on SciServer" />
   
   <meta name="twitter:description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="index.html"/>
-<link rel="next" href="getting-started-with-sciserver.html"/>
+<link rel="prev" href="introduction.html"/>
+<link rel="next" href="cellxgene.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -201,26 +201,64 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="introduction" class="section level1" number="1">
-<h1><span class="header-section-number">Chapter 1</span> Introduction</h1>
-<p>This introductory course will provide a quick overview of how the Bayesian NMF algorithm, CoGAPS (Coordinated Gene Activity across Pattern Subsets), can provide new insights into single cell datasets. Through these exercises you will analyze a real dataset using the SciServer compute platform.</p>
-<div id="motivation" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Motivation</h2>
-<p>If you would like to perform sparse matrix factorization on any data. And when this data represents biomolecules, to do gene set analysis. This can be done with CoGAPS, which can be used by anyone; no machine learning experience is required.</p>
+<div id="getting-started-with-sciserver" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Getting Started with SciServer</h1>
+<div id="what-is-sciserver" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> What is SciServer?</h2>
+<p>SciServer is an online platform that provides access to big data resources to researchers worldwide. It is used by scientists studying astronomy, biology, oceanography, and more. It is free to use as long as you are using it for scientific research. Through using SciServer, you don’t need a fancy computer or need to install any special programs on your computer, you can simply log in with your internet browser to start doing research. For this course, we have set up SciServer with customized collections of programs for RNA-seq analysis, as well as the data that we’ll be analyzing. Once you sign up for SciServer and are added to the group for this course, you will be able to access these tools and begin your data analysis journey!</p>
 </div>
-<div id="target-audience" class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Target Audience</h2>
-<p>The course is intended for anyone! No software or prior coding experience is required.</p>
+<div id="why-use-sciserver" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Why use SciServer?</h2>
+<p>In this course, we will use the online SciServer platform in order to perform data analysis. The purpose of this assignment is to register for a SciServer account, and then to inform the instructor of your username so that you can be added to the SciServer group for this course and access course materials.</p>
 </div>
-<div id="curriculum" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Curriculum</h2>
-<p>The course covers:</p>
+<div id="learning-objectives" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> Learning Objectives</h2>
+<p>This chapter will cover:</p>
 <ul>
-<li>How to join the compute platform, SciServer</li>
-<li>How to access and launch cellxgene</li>
-<li>How to load packages, data, configure/run CoGAPS, visualize patterns, find pattern markers, and document software in RStudio</li>
+<li>How to create an account on SciServer</li>
+<li>How to confirm your email address</li>
+<li>How to share your username with your instructor</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="introduction.html#cb1-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
+</div>
+<div id="create-an-account-on-sciserver" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Create an Account on SciServer</h2>
+<ol style="list-style-type: decimal">
+<li>Open <a href="sciserver.org">sciserver.org</a> in a web browser.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>TIP: Bookmark this page so that you can easily access it throughout the course.</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>Click “<strong>Login to Sciserver</strong>”</li>
+<li>Click “<strong>Create a new account</strong>”</li>
+<li>Enter a username, email, etc. and click “<strong>Create account</strong>”</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><u>Note that you cannot change your username.</u></li>
+</ol>
+</div>
+<div id="confirm-your-email-address" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Confirm Your Email Address</h2>
+<ol style="list-style-type: decimal">
+<li><strong>Important!</strong>: Click the verification link in your email inbox.</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li>If you don’t verify your account, you will get locked out and will need to contact your instructor to unlock your account.</li>
+<li>If you don’t see an email, try checking your spam folder.</li>
+</ol>
+<ol start="2" style="list-style-type: decimal">
+<li>After clicking the verification link, confirm that your username appears on the upper right hand corner of the webpage.</li>
+</ol>
+<div id="resources" class="section level3" number="2.5.1">
+<h3><span class="header-section-number">2.5.1</span> Resources</h3>
+<p><a href="sciserver.org">sciserver.org</a>
+<a href="https://support.google.com/chrome/answer/188842">How to add a bookmark in Chrome</a>
+<a href="https://sciserver.org/support/how-to-use-sciserver/">SciServer Help page</a></p>
+</div>
+<div id="references" class="section level3" number="2.5.2">
+<h3><span class="header-section-number">2.5.2</span> References</h3>
+<p>Cox, K., &amp; Tan, F. (2022, January 25). Join SciServer. C-MOOR. Retrieved June 27, 2023, from <a href="http://www.c-moor.org/miniCURE-RNA-seq/join-sciserver.html" class="uri">http://www.c-moor.org/miniCURE-RNA-seq/join-sciserver.html</a></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="getting-started-with-sciserver.html#cb3-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
 <pre><code>## ─ Session info ───────────────────────────────────────────────────────────────
 ##  setting  value                       
 ##  version  R version 4.0.2 (2020-06-22)
@@ -291,6 +329,7 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 
 </div>
 </div>
+</div>
 <hr>
 <center> 
   <div class="footer">
@@ -304,8 +343,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="getting-started-with-sciserver.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="introduction.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="cellxgene.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
