@@ -180,7 +180,17 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="5" data-path="cogaps.html"><a href="cogaps.html"><i class="fa fa-check"></i><b>5</b> CoGAPS</a>
 <ul>
 <li class="chapter" data-level="5.1" data-path="cogaps.html"><a href="cogaps.html#learning-objectives-3"><i class="fa fa-check"></i><b>5.1</b> Learning Objectives</a></li>
-<li class="chapter" data-level="5.2" data-path="cogaps.html"><a href="cogaps.html#instructions-2"><i class="fa fa-check"></i><b>5.2</b> Instructions</a></li>
+<li class="chapter" data-level="5.2" data-path="cogaps.html"><a href="cogaps.html#instructions-2"><i class="fa fa-check"></i><b>5.2</b> Instructions</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="cogaps.html"><a href="cogaps.html#start-up-a-cogaps-rstudio-compute-container"><i class="fa fa-check"></i><b>5.2.1</b> Start up a “CoGAPS RStudio” compute container</a></li>
+<li class="chapter" data-level="5.2.2" data-path="cogaps.html"><a href="cogaps.html#install-packages"><i class="fa fa-check"></i><b>5.2.2</b> Install Packages</a></li>
+<li class="chapter" data-level="5.2.3" data-path="cogaps.html"><a href="cogaps.html#load-packages"><i class="fa fa-check"></i><b>5.2.3</b> Load Packages</a></li>
+<li class="chapter" data-level="5.2.4" data-path="cogaps.html"><a href="cogaps.html#load-data"><i class="fa fa-check"></i><b>5.2.4</b> Load Data</a></li>
+<li class="chapter" data-level="5.2.5" data-path="cogaps.html"><a href="cogaps.html#run-cogaps"><i class="fa fa-check"></i><b>5.2.5</b> Run CoGAPS</a></li>
+<li class="chapter" data-level="5.2.6" data-path="cogaps.html"><a href="cogaps.html#visualize-patterns"><i class="fa fa-check"></i><b>5.2.6</b> Visualize Patterns</a></li>
+<li class="chapter" data-level="5.2.7" data-path="cogaps.html"><a href="cogaps.html#find-pattern-markers"><i class="fa fa-check"></i><b>5.2.7</b> Find Pattern Markers</a></li>
+<li class="chapter" data-level="5.2.8" data-path="cogaps.html"><a href="cogaps.html#document-software"><i class="fa fa-check"></i><b>5.2.8</b> Document Software</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="about-the-authors.html"><a href="about-the-authors.html"><i class="fa fa-check"></i>About the Authors</a></li>
 <li class="chapter" data-level="6" data-path="references-1.html"><a href="references-1.html"><i class="fa fa-check"></i><b>6</b> References</a></li>
@@ -233,7 +243,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="instructions-2" class="section level2" number="5.2">
 <h2><span class="header-section-number">5.2</span> Instructions</h2>
-<p><em>Start up a “CoGAPS RStudio” compute container</em></p>
+<div id="start-up-a-cogaps-rstudio-compute-container" class="section level3" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Start up a “CoGAPS RStudio” compute container</h3>
 <ol style="list-style-type: decimal">
 <li>Open <a href="https://sciserver.org">sciserver.org</a> in a web browser and log in to your account.</li>
 </ol>
@@ -250,18 +261,15 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 </ol>
 <p>      a. “Created at” should be a few moments ago.</p>
 <p>      b. “Name” should be the name you chose.</p>
-<p>      c. “Image” should be “R<a href="RStudio">version #</a>”</p>
+<p>      c. “Image” should be <code>"R[version #](RStudio)"</code></p>
 <ol start="5" style="list-style-type: decimal">
 <li>Start your CoGAPS RStudio container by clicking on its <strong>name</strong> (whatever name you chose when you created the container). This will open in a new tab.</li>
 </ol>
 <p>      a. You should see RStudio.</p>
-<div class="figure">
-<img src="/resources/images/RStudio.png" alt="" />
-<p class="caption">RStudio Screen</p>
-</div>
+<p><img src="/cogaps-on-sciserver/resources/images/RStudio.png" alt="RStudio Screen"></p>
 <p>      b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.</p>
 <p><strong>If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.</strong></p>
-<p><em>Update rlang</em></p>
+<p>### Update rlang</p>
 <ol style="list-style-type: decimal">
 <li>Enter and run these commands into RStudio to make sure that you have the current version of <code>rlang</code> (you will receive an error later on otherwise):</li>
 </ol>
@@ -271,7 +279,9 @@ packageVersion(&quot;rlang&quot;) # ‘1.1.0.9000’</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Once you see the output: <code>[1] '1.1.1.9000'</code> rlang has been updated.</li>
 </ol>
-<p><em>Install Packages</em></p>
+</div>
+<div id="install-packages" class="section level3" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Install Packages</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -289,7 +299,9 @@ packageVersion(&quot;rlang&quot;) # ‘1.1.0.9000’</code></pre>
 <ol start="6" style="list-style-type: decimal">
 <li>This <u>will</u> take a while. Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the installation is complete.</li>
 </ol>
-<p><em>Load Packages</em></p>
+</div>
+<div id="load-packages" class="section level3" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Load Packages</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run these commands:</li>
 </ol>
@@ -299,7 +311,9 @@ library( &quot;viridis&quot; )</code></pre>
 <ol start="2" style="list-style-type: decimal">
 <li>Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the packages have been loaded.</li>
 </ol>
-<p><em>Load Data</em></p>
+</div>
+<div id="load-data" class="section level3" number="5.2.4">
+<h3><span class="header-section-number">5.2.4</span> Load Data</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -333,7 +347,7 @@ Active assay: originalexp (15176 features, 2000 variable features)
 <li>You should see this output if the run is successful:</li>
 </ol>
 <pre><code>Warning: sparse-&gt;dense coercion: allocating vector of size 2.9 GiB</code></pre>
-<p><em>Configure CoGAPS</em></p>
+<p>### Configure CoGAPS</p>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -352,7 +366,9 @@ Active assay: originalexp (15176 features, 2000 variable features)
 <li>You should see this output if the run is successful:</li>
 </ol>
 <pre><code>setting distributed parameters - call this again if you change nPatterns</code></pre>
-<p><em>Run CoGAPS</em></p>
+</div>
+<div id="run-cogaps" class="section level3" number="5.2.5">
+<h3><span class="header-section-number">5.2.5</span> Run CoGAPS</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -514,7 +530,9 @@ Warning: Large values detected, is data log transformed?
 <li>Enter and run this command in order to save your results:</li>
 </ol>
 <pre><code>saveRDS( pdac_epi_result, &quot;pdac_epi_cogaps_result.rds&quot; )</code></pre>
-<p><em>Visualize Patterns</em></p>
+</div>
+<div id="visualize-patterns" class="section level3" number="5.2.6">
+<h3><span class="header-section-number">5.2.6</span> Visualize Patterns</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -542,11 +560,10 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = &quot;umap
 <ol start="6" style="list-style-type: decimal">
 <li>Your output should look like this if the run was successful (visible in the bottom right corner of your screen):</li>
 </ol>
-<div class="figure">
-<img src="/resources/images/featureplotcogaps.png" alt="" />
-<p class="caption">CoGAPS Feature Plot</p>
+<p><img src="/cogaps-on-sciserver/resources/images/featureplotcogaps.png" alt="CoGAPS Feature Plot"></p>
 </div>
-<p><em>Find Pattern Markers</em></p>
+<div id="find-pattern-markers" class="section level3" number="5.2.7">
+<h3><span class="header-section-number">5.2.7</span> Find Pattern Markers</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -563,7 +580,9 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = &quot;umap
 <li>Enter and run this command:</li>
 </ol>
 <pre><code># plotPatternHallmarks(hallmarks, whichpattern = 7)</code></pre>
-<p><em>Document Software</em></p>
+</div>
+<div id="document-software" class="section level3" number="5.2.8">
+<h3><span class="header-section-number">5.2.8</span> Document Software</h3>
 <ol style="list-style-type: decimal">
 <li>Enter and run this command:</li>
 </ol>
@@ -644,6 +663,7 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = &quot;umap
 ## [1] /usr/local/lib/R/site-library
 ## [2] /usr/local/lib/R/library</code></pre>
 
+</div>
 </div>
 </div>
 <hr>

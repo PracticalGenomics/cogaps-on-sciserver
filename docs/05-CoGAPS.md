@@ -15,7 +15,7 @@
 
 ## Instructions
 
-*Start up a "CoGAPS RStudio" compute container*
+### Start up a "CoGAPS RStudio" compute container
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
 
@@ -37,19 +37,19 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. "Name" should be the name you chose.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. "Image" should be "R[version #](RStudio)"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. "Image" should be ```"R[version #](RStudio)"```
 
 5. Start your CoGAPS RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
 
-![RStudio Screen](/resources/images/RStudio.png)
+<img src="/cogaps-on-sciserver/resources/images/RStudio.png" alt="RStudio Screen">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong "Compute Image" from the drop-down menu.
 
 **If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.**
 
-*Update rlang*
+ ### Update rlang
 
 1. Enter and run these commands into RStudio to make sure that you have the current version of ```rlang``` (you will receive an error later on otherwise):
 
@@ -61,7 +61,7 @@ packageVersion("rlang") # ‘1.1.0.9000’
 
 2. Once you see the output: ```[1] '1.1.1.9000'``` rlang has been updated.
 
-*Install Packages*
+### Install Packages
 
 1. Enter and run this command:
 
@@ -87,7 +87,7 @@ remotes::install_github("satijalab/seurat", "seurat5", quiet = TRUE)
 
 6. This <u>will</u> take a while. Once the red "STOP" symbol is no longer visible in the top right hand corner of the Console, the installation is complete.
 
-*Load Packages*
+### Load Packages
 
 1. Enter and run these commands:
 
@@ -99,7 +99,7 @@ library( "viridis" )
 
 2. Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the packages have been loaded.
 
-*Load Data*
+### Load Data
 
 1. Enter and run this command:
 
@@ -146,7 +146,7 @@ pdac_epi_counts <- as.matrix( pdac_data@assays$originalexp@counts )
 Warning: sparse->dense coercion: allocating vector of size 2.9 GiB
 ```
 
-*Configure CoGAPS*
+ ### Configure CoGAPS
 
 1. Enter and run this command:
 
@@ -172,7 +172,7 @@ pdac_params <- setDistributedParams( pdac_params, nSets=7 )
 setting distributed parameters - call this again if you change nPatterns
 ```
 
-*Run CoGAPS*
+### Run CoGAPS
 
 1. Enter and run this command:
 
@@ -355,7 +355,7 @@ pdac_epi_result
 saveRDS( pdac_epi_result, "pdac_epi_cogaps_result.rds" )
 ```
 
-*Visualize Patterns*
+### Visualize Patterns
 
 1. Enter and run this command:
 
@@ -393,9 +393,9 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = "umap") & 
 
 6. Your output should look like this if the run was successful (visible in the bottom right corner of your screen):
 
-![CoGAPS Feature Plot](/resources/images/featureplotcogaps.png)
+<img src="/cogaps-on-sciserver/resources/images/featureplotcogaps.png" alt="CoGAPS Feature Plot">
 
-*Find Pattern Markers*
+### Find Pattern Markers
 
 1. Enter and run this command:
 
@@ -421,7 +421,7 @@ Warning: STATS is longer than the extent of 'dim(x)[MARGIN]'
 # plotPatternHallmarks(hallmarks, whichpattern = 7)
 ```
 
-*Document Software*
+### Document Software
 
 1. Enter and run this command:
 
