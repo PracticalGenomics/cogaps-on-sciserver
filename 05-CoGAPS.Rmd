@@ -169,6 +169,7 @@ pdac_params <- setDistributedParams( pdac_params, nSets=7 )
 ```
 
 3. You should see this output if the run is successful:
+
 ```{r}
 setting distributed parameters - call this again if you change nPatterns
 ```
@@ -362,12 +363,14 @@ saveRDS( pdac_epi_result, "pdac_epi_cogaps_result.rds" )
 
 ```{r}
 cogapsresult <- readRDS( "pdac_epi_cogaps_result.rds" )
+```
 
 2. Enter and run this command:
 
 ```{r}
 patterns_in_order <- t( cogapsresult@sampleFactors[colnames(pdac_data),] )
 pdac_data[["CoGAPS"]] <- CreateAssayObject( counts = patterns_in_order )
+```
 
 3. You should receive this output:
 
