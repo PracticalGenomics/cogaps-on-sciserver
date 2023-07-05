@@ -70,7 +70,7 @@ packageVersion("rlang") # ‘1.1.0.9000’
 devtools::install_github("FertigLab/CoGAPS")
 ```
 
-2. This <u>will</u> take a while. Once the red "STOP" sybol is no longer visible in the top right hand corner of the Console, the installation is complete.
+2. This <u>will</u> take a while. Once the red "STOP" symbol is no longer visible in the top right hand corner of the Console, the installation is complete.
 
 3. Enter and run this command:
 
@@ -86,7 +86,7 @@ devtools::install_github("sjmgarnier/viridis")
 remotes::install_github("satijalab/seurat", "seurat5", quiet = TRUE)
 ```
 
-6. This <u>will</u> take a while. Once the red "STOP" sybol is no longer visible in the top right hand corner of the Console, the installation is complete.
+6. This <u>will</u> take a while. Once the red "STOP" symbol is no longer visible in the top right hand corner of the Console, the installation is complete.
 
 *Load Packages*
 
