@@ -27,4 +27,12 @@ managing-your-c-moor-rstudio-compute-container
 cogaps
 learning-objectives-3
 instructions-2
+start-up-a-cogaps-rstudio-compute-container
+install-packages
+load-packages
+load-data
+run-cogaps
+visualize-patterns
+find-pattern-markers
+document-software
 references-1
