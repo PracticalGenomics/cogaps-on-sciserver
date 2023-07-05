@@ -435,7 +435,7 @@ sessionInfo()
 
 **Troubleshooting/Reminders:**
 
-- If you restart RStudio, you must repeat the *Load Packages* step, otherwise errors will occur and you will not be able to successfully run your code.
+- If you restart RStudio, you must repeat the [Load Packages](https://practicalgenomics.github.io/cogaps-on-sciserver/cogaps.html#load-packages) step, otherwise errors will occur and you will not be able to successfully run your code.
 
 ```{r}
 devtools::session_info()
