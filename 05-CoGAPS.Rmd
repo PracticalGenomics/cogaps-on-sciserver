@@ -6,6 +6,7 @@ ottrpal::set_knitr_image_path()
 # CoGAPS
 
 ## Learning Objectives
+
 - How to load packages in RStudio
 - How to load data in RStudio
 - How to configure CoGAPS
