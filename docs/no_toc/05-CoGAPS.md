@@ -43,7 +43,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
 
-<img src="/cogaps-on-sciserver/resources/images/RStudio.png" alt="RStudio Screen">
+<img src="cogaps-on-sciserver/resources/images/RStudio.png" alt="RStudio Screen">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong "Compute Image" from the drop-down menu.
 
@@ -393,7 +393,7 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = "umap") & 
 
 6. Your output should look like this if the run was successful (visible in the bottom right corner of your screen):
 
-<img src="/cogaps-on-sciserver/resources/images/featureplotcogaps.png" alt="CoGAPS Feature Plot">
+<img src="cogaps-on-sciserver/resources/images/featureplotcogaps.png" alt="CoGAPS Feature Plot">
 
 ### Find Pattern Markers
 
