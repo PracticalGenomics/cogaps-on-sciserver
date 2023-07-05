@@ -77,7 +77,7 @@ Before beginning this assignment, you should have already created a SciServer ac
  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Enter your name
 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. Press <ENTER>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. Press ENTER
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Select 1, 2, or 3
 
