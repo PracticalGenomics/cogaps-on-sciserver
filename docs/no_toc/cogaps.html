@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 cellxgene | CoGAPS on SciServer</title>
+  <title>Chapter 5 CoGAPS | CoGAPS on SciServer</title>
   <meta name="description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 cellxgene | CoGAPS on SciServer" />
+  <meta property="og:title" content="Chapter 5 CoGAPS | CoGAPS on SciServer" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 cellxgene | CoGAPS on SciServer" />
+  <meta name="twitter:title" content="Chapter 5 CoGAPS | CoGAPS on SciServer" />
   
   <meta name="twitter:description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   
@@ -29,8 +29,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
-<link rel="prev" href="getting-started-with-sciserver.html"/>
-<link rel="next" href="rrstudio.html"/>
+<link rel="prev" href="rrstudio.html"/>
+<link rel="next" href="about-the-authors.html"/>
 <script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
@@ -217,47 +217,365 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="cellxgene" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> cellxgene</h1>
-<div id="learning-objectives-1" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Learning Objectives</h2>
+<div id="cogaps" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> CoGAPS</h1>
+<div id="learning-objectives-3" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Learning Objectives</h2>
 <ul>
-<li>Confirm access to STAC Administrators Group</li>
-<li>Launch cellxgene</li>
-<li>Edit SciServer Dashboard</li>
+<li>How to load packages in RStudio</li>
+<li>How to load data in RStudio</li>
+<li>How to configure CoGAPS</li>
+<li>How to run CoGAPS</li>
+<li>How to visualize patterns</li>
+<li>How to find pattern markers</li>
+<li>How to document software</li>
 </ul>
 </div>
-<div id="instructions" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Instructions</h2>
-<div id="confirm-access" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Confirm Access</h3>
+<div id="instructions-2" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Instructions</h2>
+<p><em>Start up a “CoGAPS RStudio” compute container</em></p>
 <ol style="list-style-type: decimal">
-<li>Go to <a href="https://sciserver.org">sciserver.org</a> and click on “<strong>Login to SciServer</strong>”.</li>
-<li>Log in with the SciServer account you created in Part 1.</li>
-<li>Once logged in, you will see options on the top menu bar of the homepage/Dashboard (Home, Files, Groups, and various options for Compute). Confirm that you received and accepted the invitation to the STAC Administrators Group by clicking on “<strong>Groups</strong>” in the top menu bar.</li>
-<li>Click on “<strong>STAC Administrators</strong>” in the left sidebar menu. You should see your username in the Members list on the right sidebar. You should also have access to the Shared Data Volume “STAC” and Share Compute Image “single-cell-explorer”.</li>
+<li>Open <a href="https://sciserver.org">sciserver.org</a> in a web browser and log in to your account.</li>
 </ol>
+<p>      a. If you’re already logged in, click “<strong>Home</strong>” in the top menu bar to return to the home page.</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Scroll down to the second set of boxes and click “<strong>Compute</strong>”.</p></li>
+<li><p>Click “<strong>Create container</strong>”</p></li>
+</ol>
+<p>      a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell your containers apart. You could name this container “CoGAPS”, since you’ll be using it to run CoGAPS.</p>
+<p>      b. In the “<strong>Compute Image</strong>” drop-down menu, select “<strong>R [version #] (RStudio)</strong>” (there may be multiple versions of R in this drop-down menu; click on the latest version listed).</p>
+<p>      c. Click “<strong>Create</strong>”. This may take a moment.</p>
+<ol start="4" style="list-style-type: decimal">
+<li>You should now see a new entry in your list of containers.</li>
+</ol>
+<p>      a. “Created at” should be a few moments ago.</p>
+<p>      b. “Name” should be the name you chose.</p>
+<p>      c. “Image” should be “R<a href="RStudio">version #</a>”</p>
+<ol start="5" style="list-style-type: decimal">
+<li>Start your CoGAPS RStudio container by clicking on its <strong>name</strong> (whatever name you chose when you created the container). This will open in a new tab.</li>
+</ol>
+<p>      a. You should see RStudio.</p>
+<div class="figure">
+<img src="/resources/images/RStudio.png" alt="" />
+<p class="caption">RStudio Screen</p>
 </div>
-<div id="launch-cellxgene" class="section level3" number="3.2.2">
-<h3><span class="header-section-number">3.2.2</span> Launch cellxgene</h3>
+<p>      b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.</p>
+<p><strong>If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.</strong></p>
+<p><em>Update rlang</em></p>
 <ol style="list-style-type: decimal">
-<li>In order to explore the available datasets, click on “<strong>Files</strong>” in the top menu bar.</li>
-<li>Click on “<strong>Data Volumes</strong>” in the left sidebar menu.</li>
-<li>Scroll down the page to find the data volume “<strong>STAC</strong>”. Click on the name to access the dashboard.</li>
-<li>Under the “Available datasets” heading, click on “<strong>PDAC <a href="cellxgene.html#cellxgene">cellxgene</a></strong>”.</li>
-<li>cellxgene should now launch with your dataset of interest ready to explore!</li>
+<li>Enter and run these commands into RStudio to make sure that you have the current version of <code>rlang</code> (you will receive an error later on otherwise):</li>
 </ol>
+<pre><code>packageVersion(&quot;rlang&quot;) # ‘1.0.6’
+devtools::install_github(&quot;r-lib/rlang&quot;)
+packageVersion(&quot;rlang&quot;) # ‘1.1.0.9000’</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Once you see the output: <code>[1] '1.1.1.9000'</code> rlang has been updated.</li>
+</ol>
+<p><em>Install Packages</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>devtools::install_github(&quot;FertigLab/CoGAPS&quot;)</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><p>This <u>will</u> take a while. Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the installation is complete.</p></li>
+<li><p>Enter and run this command:</p></li>
+</ol>
+<pre><code>devtools::install_github(&quot;sjmgarnier/viridis&quot;)</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li><p>Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the installation is complete.</p></li>
+<li><p>Enter and run this command:</p></li>
+</ol>
+<pre><code>remotes::install_github(&quot;satijalab/seurat&quot;, &quot;seurat5&quot;, quiet = TRUE)</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>This <u>will</u> take a while. Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the installation is complete.</li>
+</ol>
+<p><em>Load Packages</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run these commands:</li>
+</ol>
+<pre><code>library( &quot;CoGAPS&quot; )
+library( &quot;Seurat&quot; )
+library( &quot;viridis&quot; )</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the packages have been loaded.</li>
+</ol>
+<p><em>Load Data</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>url &lt;- &quot;https://github.com/FertigLab/CoGAPS/raw/master/data/inputdata.Rds&quot;
+download.file( url, &quot;inputdata.Rds&quot; )</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>You should see this output if the run is successful:</li>
+</ol>
+<pre><code>trying URL &#39;https://github.com/FertigLab/CoGAPS/raw/master/data/inputdata.Rds&#39;
+Content type &#39;application/octet-stream&#39; length 433262849 bytes (413.2 MB)
+==================================================
+downloaded 413.2 MB</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>pdac_data &lt;- readRDS( &quot;inputdata.Rds&quot; )
+pdac_data</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>You should see this output if the run is successful:</li>
+</ol>
+<pre><code>An object of class Seurat 
+15184 features across 25442 samples within 2 assays 
+Active assay: originalexp (15176 features, 2000 variable features)
+ 1 other assay present: CoGAPS
+ 5 dimensional reductions calculated: PCA, Aligned, UMAP, pca, umap</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>pdac_epi_counts &lt;- as.matrix( pdac_data@assays$originalexp@counts )</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>You should see this output if the run is successful:</li>
+</ol>
+<pre><code>Warning: sparse-&gt;dense coercion: allocating vector of size 2.9 GiB</code></pre>
+<p><em>Configure CoGAPS</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>pdac_params &lt;- CogapsParams(
+  nIterations=100,          # run for 100 iterations 
+  seed=42,                  # for consistency across stochastic runs
+  nPatterns=8,              # each thread will learn 8 patterns
+  sparseOptimization=TRUE,  # optimize for sparse data
+  distributed=&quot;genome-wide&quot; # parallelize across sets
+)</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>pdac_params &lt;- setDistributedParams( pdac_params, nSets=7 )</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>You should see this output if the run is successful:</li>
+</ol>
+<pre><code>setting distributed parameters - call this again if you change nPatterns</code></pre>
+<p><em>Run CoGAPS</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>Sys.time()</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Your output should include today’s date and time.</p></li>
+<li><p>Enter and run this command:</p></li>
+</ol>
+<pre><code>pdac_epi_result &lt;- CoGAPS( pdac_epi_counts, pdac_params )</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>You should see this output if the run is successful (This <u>will</u> take a while, most likely around 20+ minutes):</li>
+</ol>
+<pre><code>This is CoGAPS version 3.19.1 
+Running genome-wide CoGAPS on pdac_epi_counts (15176 genes and 25442 samples) with parameters:
+
+-- Standard Parameters --
+nPatterns            8 
+nIterations          100 
+seed                 42 
+sparseOptimization   TRUE 
+distributed          genome-wide 
+
+-- Sparsity Parameters --
+alpha          0.01 
+maxGibbsMass   100 
+
+-- Distributed CoGAPS Parameters -- 
+nSets          7 
+cut            8 
+minNS          4 
+maxNS          11 
+
+Creating subsets...
+set sizes (min, mean, max): (2168, 2168, 2168)
+Running Across Subsets...
+
+Data Model: Sparse, Normal
+Sampler Type: Sequential
+Loading Data...
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+Done! (00:00:36)
+    worker 1 is starting!
+-- Equilibration Phase --
+
+Warning: Large values detected, is data log transformed?
+    worker 6 is starting!
+
+Warning: Large values detected, is data log transformed?
+    worker 4 is starting!
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+    worker 5 is starting!
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+    worker 3 is starting!
+
+Warning: Large values detected, is data log transformed?
+    worker 7 is starting!
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+    worker 2 is starting!
+-- Sampling Phase --
+    worker 2 is finished! Time: 00:18:04
+    worker 7 is finished! Time: 00:18:20
+    worker 4 is finished! Time: 00:18:49
+    worker 3 is finished! Time: 00:18:42
+    worker 6 is finished! Time: 00:18:59
+    worker 1 is finished! Time: 00:19:09
+    worker 5 is finished! Time: 00:19:19
+
+Matching Patterns Across Subsets…
+Running Final Stage...
+
+Connected to your session in progress, last started 2023-Jun-29 16:26:07 UTC (3 hours ago)
+Data Model: Sparse, Normal
+Sampler Type: Sequential
+Loading Data...
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+Done! (00:00:29)
+    worker 1 is starting!
+-- Equilibration Phase --
+
+Warning: Large values detected, is data log transformed?
+    worker 5 is starting!
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+    worker 4 is starting!
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+    worker 6 is starting!
+
+Warning: Large values detected, is data log transformed?
+    worker 2 is starting!
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+
+Warning: Large values detected, is data log transformed?
+    worker 3 is starting!
+
+Warning: Large values detected, is data log transformed?
+    worker 7 is starting!
+-- Sampling Phase --
+   worker 1 is finished! Time: 00:17:04
+    worker 6 is finished! Time: 00:17:04
+    worker 5 is finished! Time: 00:17:16
+    worker 4 is finished! Time: 00:17:15
+    worker 7 is finished! Time: 00:17:07
+    worker 2 is finished! Time: 00:17:17
+    worker 3 is finished! Time: 00:17:11</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>Sys.time()</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li><p>Your output should include today’s date and time.</p></li>
+<li><p>Enter and run this command:</p></li>
+</ol>
+<pre><code>saveRDS( pdac_epi_result, &quot;../data/pdac_epi_cogaps_result&quot; )</code></pre>
+<ol start="8" style="list-style-type: decimal">
+<li>You should see this output if the run is successful:</li>
+</ol>
+<pre><code>Warning: cannot open compressed file &#39;../data/pdac_epi_cogaps_result&#39;, probable reason &#39;No such file or directory&#39;Error in gzfile(file, mode) : cannot open the connection</code></pre>
+<ol start="9" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>pdac_epi_result</code></pre>
+<ol start="10" style="list-style-type: decimal">
+<li>You should see this output if the run is successful:</li>
+</ol>
+<pre><code>[1] &quot;CogapsResult object with 15176 features and 25442 samples&quot;
+[1] &quot;7 patterns were learned&quot;</code></pre>
+<ol start="11" style="list-style-type: decimal">
+<li>Enter and run this command in order to save your results:</li>
+</ol>
+<pre><code>saveRDS( pdac_epi_result, &quot;pdac_epi_cogaps_result.rds&quot; )</code></pre>
+<p><em>Visualize Patterns</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>cogapsresult &lt;- readRDS( &quot;pdac_epi_cogaps_result.rds&quot; )</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>patterns_in_order &lt;- t( cogapsresult@sampleFactors[colnames(pdac_data),] )
+pdac_data[[&quot;CoGAPS&quot;]] &lt;- CreateAssayObject( counts = patterns_in_order )</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>You should receive this output:</li>
+</ol>
+<pre><code>Warning: Feature names cannot have underscores (&#39;_&#39;), replacing with dashes (&#39;-&#39;)</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>inputdata &lt;- pdac_data
+DefaultAssay(inputdata) &lt;- &quot;CoGAPS&quot;
+pattern_names = rownames( inputdata@assays$CoGAPS )</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>color_palette &lt;- viridis(n=10)
+FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = &quot;umap&quot;) &amp; NoLegend()</code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>Your output should look like this if the run was successful (visible in the bottom right corner of your screen):</li>
+</ol>
+<div class="figure">
+<img src="/resources/images/featureplotcogaps.png" alt="" />
+<p class="caption">CoGAPS Feature Plot</p>
 </div>
-<div id="edit-dashboard" class="section level3" number="3.2.3">
-<h3><span class="header-section-number">3.2.3</span> Edit Dashboard</h3>
+<p><em>Find Pattern Markers</em></p>
 <ol style="list-style-type: decimal">
-<li>Click on “<strong>Files</strong>” in the top menu bar.</li>
-<li>Click on “<strong>Data Volumes</strong>” in the left sidebar menu.</li>
-<li>Scroll down the page to find the data volume “<strong>STAC</strong>”. Click on the name to access the dashboard.</li>
-<li>Scroll to the bottom of the page and find the “README.md” file. Click on the three dots, then click “<strong>View/Edit</strong>”.</li>
-<li>You should now be able to edit and improve the README file using standard Markdown syntax.</li>
+<li>Enter and run this command:</li>
 </ol>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="cellxgene.html#cb5-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
+<pre><code>pm &lt;- patternMarkers( cogapsresult, threshold=&quot;cut&quot; )</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>You should see this output if the run was successful:</li>
+</ol>
+<pre><code>Warning: STATS is longer than the extent of &#39;dim(x)[MARGIN]&#39;</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code># hallmarks &lt;- PatternHallmarks( cogapsresult )</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code># plotPatternHallmarks(hallmarks, whichpattern = 7)</code></pre>
+<p><em>Document Software</em></p>
+<ol style="list-style-type: decimal">
+<li>Enter and run this command:</li>
+</ol>
+<pre><code>sessionInfo()</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li>Your output should include all the information about your RStudio session.</li>
+</ol>
+<p><strong>Troubleshooting/Reminders:</strong></p>
+<ul>
+<li>If you restart RStudio, you must repeat the <em>Load Packages</em> step, otherwise errors will occur and you will not be able to successfully run your code.</li>
+</ul>
+<div class="sourceCode" id="cb42"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb42-1"><a href="cogaps.html#cb42-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">session_info</span>()</span></code></pre></div>
 <pre><code>## ─ Session info ───────────────────────────────────────────────────────────────
 ##  setting  value                       
 ##  version  R version 4.0.2 (2020-06-22)
@@ -328,7 +646,6 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
 
 </div>
 </div>
-</div>
 <hr>
 <center> 
   <div class="footer">
@@ -342,8 +659,8 @@ code span.wa { color: #8f5902; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="getting-started-with-sciserver.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="rrstudio.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="rrstudio.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="about-the-authors.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
