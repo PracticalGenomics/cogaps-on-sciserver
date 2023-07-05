@@ -22,17 +22,17 @@ This chapter will cover:
 ## Create an Account on SciServer
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser.
-&nbsp; a. TIP: Bookmark this page so that you can easily access it throughout the course.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. TIP: Bookmark this page so that you can easily access it throughout the course.
 2. Click "**Login to Sciserver**"
 3. Click "**Create a new account**"
 4. Enter a username, email, etc. and click "**Create account**"
-&nbsp; a. <u>Note that you cannot change your username.</u>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. <u>Note that you cannot change your username.</u>
 
 ## Confirm Your Email Address
 
 1. **Important!**: Click the verification link in your email inbox.
-&nbsp; a. If you don’t verify your account, you will get locked out and will need to contact your instructor to unlock your account.
-&nbsp; b. If you don’t see an email, try checking your spam folder.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you don’t verify your account, you will get locked out and will need to contact your instructor to unlock your account.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you don’t see an email, try checking your spam folder.
 2. After clicking the verification link, confirm that your username appears on the upper right hand corner of the webpage.
 
 ### Resources
