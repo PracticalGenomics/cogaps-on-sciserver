@@ -43,7 +43,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
 
-<img src="cogaps-on-sciserver/resources/images/RStudio.png" alt="RStudio Screen">
+<img src="resources/images/05-CoGAPS_files/figure-html//1ZNZwjkPcBA1Tgc0zits127DCHKXT8UuRc8VKFUsn0Zw_p.png" title="Image of RStudio screen" alt="Image of RStudio screen" width="100%" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong "Compute Image" from the drop-down menu.
 
@@ -393,7 +393,7 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = "umap") & 
 
 6. Your output should look like this if the run was successful (visible in the bottom right corner of your screen):
 
-<img src="cogaps-on-sciserver/resources/images/featureplotcogaps.png" alt="CoGAPS Feature Plot">
+<img src="resources/images/05-CoGAPS_files/figure-html//1ZNZwjkPcBA1Tgc0zits127DCHKXT8UuRc8VKFUsn0Zw_g257be308528_0_1.png" title="Image of a CoGAPS feature plot" alt="Image of a CoGAPS feature plot" width="100%" />
 
 ### Find Pattern Markers
 
@@ -451,7 +451,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-07-05                  
+##  date     2023-07-06                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
@@ -462,6 +462,7 @@ devtools::session_info()
 ##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
 ##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
 ##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.0)                    
+##  curl          4.3     2019-12-02 [1] RSPM (R 4.0.3)                    
 ##  desc          1.2.0   2018-05-01 [1] RSPM (R 4.0.3)                    
 ##  devtools      2.3.2   2020-09-18 [1] RSPM (R 4.0.3)                    
 ##  digest        0.6.25  2020-02-23 [1] RSPM (R 4.0.0)                    
@@ -471,8 +472,10 @@ devtools::session_info()
 ##  fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.0.2)                    
 ##  fs            1.5.0   2020-07-31 [1] RSPM (R 4.0.3)                    
 ##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
+##  highr         0.8     2019-03-20 [1] RSPM (R 4.0.3)                    
 ##  hms           0.5.3   2020-01-08 [1] RSPM (R 4.0.0)                    
 ##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
+##  httr          1.4.2   2020-07-20 [1] RSPM (R 4.0.3)                    
 ##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.0.2)                    
 ##  jsonlite      1.7.1   2020-09-07 [1] RSPM (R 4.0.2)                    
 ##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
