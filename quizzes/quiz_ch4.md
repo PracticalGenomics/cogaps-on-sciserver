@@ -32,18 +32,18 @@ o) Data frame
 {choose-answers}
 ? In R, which function is used to display the contents of an object
 
-C) print()
-o) display()
 o) show()
+o) display()
+C) print()
 o) output()
 
 {choose-answers: 1}
-? Which symbol is used in R to assign a value to a variable
+? Which symbol(s) is used in R to assign a value to a variable
 
-C) =
-o) <<
-o) ->
-o) :
+C) <- or =
+o) << or <
+o) -> or >
+o) : or ;
 
 {choose-answers: 1}
 ? What is the correct syntax to create a vector named "my_vector" with the values 1, 2, 3 in R
