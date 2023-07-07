@@ -28,9 +28,11 @@ cogaps
 learning-objectives-3
 instructions-2
 start-up-a-cogaps-rstudio-compute-container
+update-rlang
 install-packages
 load-packages
 load-data
+configure-cogaps
 run-cogaps
 visualize-patterns
 find-pattern-markers

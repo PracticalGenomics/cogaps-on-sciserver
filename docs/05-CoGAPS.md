@@ -49,7 +49,7 @@
 
 **If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.**
 
- ### Update rlang
+### Update rlang
 
 1. Enter and run these commands into RStudio to make sure that you have the current version of ```rlang``` (you will receive an error later on otherwise):
 
@@ -146,7 +146,7 @@ pdac_epi_counts <- as.matrix( pdac_data@assays$originalexp@counts )
 Warning: sparse->dense coercion: allocating vector of size 2.9 GiB
 ```
 
- ### Configure CoGAPS
+### Configure CoGAPS
 
 1. Enter and run this command:
 
@@ -451,7 +451,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-07-06                  
+##  date     2023-07-07                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
