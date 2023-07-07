@@ -5,6 +5,7 @@
 
 ## Learning Objectives
 
+- Learn about CoGAPS
 - How to load packages in RStudio
 - How to load data in RStudio
 - How to configure CoGAPS
@@ -12,6 +13,14 @@
 - How to visualize patterns
 - How to find pattern markers
 - How to document software
+
+## What is CoGAPS?
+
+CoGAPS (Coordinated Gene Activity across Pattern Subsets) is a Bayesian NMF (Nonnegative Matrix Factorization) algorithm. It can be used to perform sparse matrix factorization on any data, and when this data represents biomolecules, to do gene set analysis. CoGAPS improves on other enrichment measurement methods by combining a Markov chain Monte Carlo (MCMC) matrix factorization algorithm (GAPS) with a threshold-independent statistic inferring activity on gene sets.
+
+## What is CoGAPS used for?
+
+CoGAPS can be used to perform sparse matrix factorization on any data. And when this data represents biomolecules, to do gene set analysis.
 
 ## Instructions
 
@@ -434,6 +443,10 @@ sessionInfo()
 **Troubleshooting/Reminders:**
 
 - If you restart RStudio, you must repeat the [Load Packages](https://practicalgenomics.github.io/cogaps-on-sciserver/cogaps.html#load-packages) step, otherwise errors will occur and you will not be able to successfully run your code.
+
+## Resources
+
+[CoGAPS Guide Website](https://fertiglab.github.io/CoGAPSGuide/)
 
 
 ```r
