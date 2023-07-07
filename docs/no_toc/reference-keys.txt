@@ -26,6 +26,8 @@ complete-your-first-swirl-tutorial
 managing-your-c-moor-rstudio-compute-container
 cogaps
 learning-objectives-3
+what-is-cogaps
+what-is-cogaps-used-for
 instructions-2
 start-up-a-cogaps-rstudio-compute-container
 update-rlang
@@ -37,4 +39,5 @@ run-cogaps
 visualize-patterns
 find-pattern-markers
 document-software
+resources-1
 references-1
