@@ -74,6 +74,7 @@ o) 8.75
 
 C) Repeats a sequence of numbers
 o) Replaces missing values in a dataset
+o) R begins playing the album, *reputation*, by Taylor Swift
 o) Removes duplicates from a vector
 o) Repairs the incorrect vector when a mistake is made
 
