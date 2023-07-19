@@ -22,18 +22,32 @@ This chapter will cover:
 ## Create an Account on SciServer
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. TIP: Bookmark this page so that you can easily access it throughout the course.
+
 2. Click "**Login to Sciserver**"
+
+<img src="resources/images/02-Getting-Started-With-SciServer_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_6.png" title="Image of SciServer landing page" alt="Image of SciServer landing page" width="100%" />
+
 3. Click "**Create a new account**"
+
+<img src="resources/images/02-Getting-Started-With-SciServer_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_92.png" title="Image of SciServer login page" alt="Image of SciServer login page" width="100%" />
+
 4. Enter a username, email, etc. and click "**Create account**"
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. <u>Note that you cannot change your username.</u>
 
 ## Confirm Your Email Address
 
 1. **Important!**: Click the verification link in your email inbox.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you don’t verify your account, you will get locked out and will need to contact your instructor to unlock your account.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you don’t see an email, try checking your spam folder.
+
 2. After clicking the verification link, confirm that your username appears on the upper right hand corner of the webpage.
+
+<img src="resources/images/02-Getting-Started-With-SciServer_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_98.png" title="Image of username highlighted on SciServer page" alt="Image of username highlighted on SciServer page" width="100%" />
 
 ### Resources
 
@@ -72,6 +86,7 @@ devtools::session_info()
 ##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
 ##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
 ##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.0)                    
+##  curl          4.3     2019-12-02 [1] RSPM (R 4.0.3)                    
 ##  desc          1.2.0   2018-05-01 [1] RSPM (R 4.0.3)                    
 ##  devtools      2.3.2   2020-09-18 [1] RSPM (R 4.0.3)                    
 ##  digest        0.6.25  2020-02-23 [1] RSPM (R 4.0.0)                    
@@ -81,8 +96,10 @@ devtools::session_info()
 ##  fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.0.2)                    
 ##  fs            1.5.0   2020-07-31 [1] RSPM (R 4.0.3)                    
 ##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
+##  highr         0.8     2019-03-20 [1] RSPM (R 4.0.3)                    
 ##  hms           0.5.3   2020-01-08 [1] RSPM (R 4.0.0)                    
 ##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
+##  httr          1.4.2   2020-07-20 [1] RSPM (R 4.0.3)                    
 ##  jquerylib     0.1.4   2021-04-26 [1] CRAN (R 4.0.2)                    
 ##  jsonlite      1.7.1   2020-09-07 [1] RSPM (R 4.0.2)                    
 ##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
