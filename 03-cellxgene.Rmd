@@ -26,6 +26,10 @@ ottrpal::set_knitr_image_path()
 3. In the left sidebar menu titled "Science Domains", click on "**Genomics**".
 4. Beneath the DNA logo image, click the "**Join**" button.
 
+```{r, fig.alt="Image of Genomics page", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25954290abf_0_0")
+```
+
 ### Launch cellxgene
 
 1. In order to explore the available datasets, click on “**Files**” in the top menu bar.
