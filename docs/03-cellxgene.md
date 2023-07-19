@@ -32,7 +32,13 @@
 
 1. Return to the [SciServer Dashboard](https://apps.sciserver.org/dashboard/).
 2. Click on "**Science Domains**" in the top menu bar.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_33.png){width=100%}
+
 3. In the left sidebar menu titled "Science Domains", click on "**Genomics**".
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_39.png){width=100%}
+
 4. Beneath the DNA logo image, click the "**Join**" button.
 
 ![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_0.png){width=100%}
@@ -40,10 +46,25 @@
 ### Launch cellxgene
 
 1. In order to explore the available datasets, click on “**Files**” in the top menu bar.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_45.png){width=100%}
+
 2. Click on “**Data Volumes**” in the left sidebar menu. 
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png){width=100%}
+
 3. Scroll down the page to find the data volume “**STAC**”. Click on the name to access the dashboard.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png){width=100%}
+
 4. Under the “Available datasets” heading, click on “**PDAC [cellxgene]**”.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_63.png){width=100%}
+
 5. cellxgene should now launch with your dataset of interest ready to explore!
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_69.png){width=100%}
+
 
 ### Edit Dashboard
 
