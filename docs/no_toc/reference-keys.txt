@@ -15,6 +15,7 @@ cellxgene
 learning-objectives-1
 instructions
 confirm-access
+join-genomics-domain
 launch-cellxgene
 edit-dashboard
 rrstudio
