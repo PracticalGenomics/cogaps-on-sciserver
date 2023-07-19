@@ -17,7 +17,14 @@ ottrpal::set_knitr_image_path()
 1. Go to [sciserver.org](https://sciserver.org) and click on "**Login to SciServer**".
 2. Log in with the SciServer account you created in Part 1.
 3. Once logged in, you will see options on the top menu bar of the homepage/Dashboard (Home, Files, Groups, and various options for Compute). Confirm that you received and accepted the invitation to the STAC Administrators Group by clicking on “**Groups**” in the top menu bar.
-4. Click on “**STAC Administrators**” in the left sidebar menu. You should see your username in the Members list on the right sidebar. You should also have access to the Shared Data Volume “STAC” and Share Compute Image “single-cell-explorer”.                                                                                       
+4. Click on “**STAC Administrators**” in the left sidebar menu. You should see your username in the Members list on the right sidebar. You should also have access to the Shared Data Volume “STAC” and Share Compute Image “single-cell-explorer”.     
+
+### Join Genomics Domain
+
+1. Return to the ![SciServer Dashboard](https://apps.sciserver.org/dashboard/).
+2. Click on "**Science Domains**" in the top menu bar.
+3. In the left sidebar menu titled "Science Domains", click on "**Genomics**".
+4. Beneath the DNA logo image, click the "**Join**" button.
 
 ### Launch cellxgene
 
