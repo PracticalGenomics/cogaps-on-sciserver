@@ -37,7 +37,6 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ
 ```{r, fig.alt="Image of SciServer Groups page", out.width = "100%", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_24")
 ```
-https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_24
 
 ### Join Genomics Domain
 
