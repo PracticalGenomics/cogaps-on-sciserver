@@ -95,10 +95,35 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ
 ### Edit Dashboard
 
 1. Click on "**Files**" in the top menu bar.
+
+```{r, fig.alt="Image of Files highlighted in the menu bar", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_75")
+```
+
 2. Click on “**Data Volumes**” in the left sidebar menu.
+
+```{r, fig.alt="Image of Data Volumes highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_51")
+```
+
 3. Scroll down the page to find the data volume “**STAC**”. Click on the name to access the dashboard.
+
+```{r, fig.alt="Image of STAC data volume highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_57")
+```
+
 4. Scroll to the bottom of the page and find the “README.md” file. Click on the three dots, then click “**View/Edit**”.
-5. You should now be able to edit and improve the README file using standard Markdown syntax.                                                                                       
+
+```{r, fig.alt="Image of View/Edit option highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_81")
+```
+
+5. You should now be able to edit and improve the README file using standard Markdown syntax.
+
+```{r, fig.alt="Image of README file editor", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_87")
+```
+
                                                                                        
 ```{r}
 devtools::session_info()
