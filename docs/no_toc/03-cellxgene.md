@@ -69,10 +69,25 @@
 ### Edit Dashboard
 
 1. Click on "**Files**" in the top menu bar.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_75.png" title="Image of Files highlighted in the menu bar" alt="Image of Files highlighted in the menu bar" width="100%" />
+
 2. Click on “**Data Volumes**” in the left sidebar menu.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png" title="Image of Data Volumes highlighted" alt="Image of Data Volumes highlighted" width="100%" />
+
 3. Scroll down the page to find the data volume “**STAC**”. Click on the name to access the dashboard.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png" title="Image of STAC data volume highlighted" alt="Image of STAC data volume highlighted" width="100%" />
+
 4. Scroll to the bottom of the page and find the “README.md” file. Click on the three dots, then click “**View/Edit**”.
-5. You should now be able to edit and improve the README file using standard Markdown syntax.                                                                                       
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_81.png" title="Image of View/Edit option highlighted" alt="Image of View/Edit option highlighted" width="100%" />
+
+5. You should now be able to edit and improve the README file using standard Markdown syntax.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_87.png" title="Image of README file editor" alt="Image of README file editor" width="100%" />
+
                                                                                        
 
 ```r
