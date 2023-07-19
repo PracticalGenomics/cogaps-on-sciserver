@@ -55,7 +55,7 @@ CoGAPS can be used to perform sparse matrix factorization on any data. And when 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
 
 ```{r, fig.alt="Image of RStudio screen", out.width = "100%", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1ZNZwjkPcBA1Tgc0zits127DCHKXT8UuRc8VKFUsn0Zw/edit#slide=id.p")
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25954290abf_0_12")
 ```
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong "Compute Image" from the drop-down menu.
@@ -407,7 +407,7 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = "umap") & 
 6. Your output should look like this if the run was successful (visible in the bottom right corner of your screen):
 
 ```{r, fig.alt="Image of a CoGAPS feature plot", out.width = "100%", echo = FALSE}
-ottrpal::include_slide("https://docs.google.com/presentation/d/1ZNZwjkPcBA1Tgc0zits127DCHKXT8UuRc8VKFUsn0Zw/edit#slide=id.g257be308528_0_1")
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_1")
 ```
 
 ### Find Pattern Markers
