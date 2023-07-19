@@ -24,18 +24,38 @@ This chapter will cover:
 ## Create an Account on SciServer
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. TIP: Bookmark this page so that you can easily access it throughout the course.
+
 2. Click "**Login to Sciserver**"
+
+```{r, fig.alt="Image of SciServer landing page", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_6")
+```
+
 3. Click "**Create a new account**"
+
+```{r, fig.alt="Image of SciServer login page", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_92")
+```
+
 4. Enter a username, email, etc. and click "**Create account**"
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. <u>Note that you cannot change your username.</u>
 
 ## Confirm Your Email Address
 
 1. **Important!**: Click the verification link in your email inbox.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you don’t verify your account, you will get locked out and will need to contact your instructor to unlock your account.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you don’t see an email, try checking your spam folder.
+
 2. After clicking the verification link, confirm that your username appears on the upper right hand corner of the webpage.
+
+```{r, fig.alt="Image of username highlighted on SciServer page", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_98")
+```
 
 ### Resources
 
