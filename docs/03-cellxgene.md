@@ -69,10 +69,25 @@
 ### Edit Dashboard
 
 1. Click on "**Files**" in the top menu bar.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_75.png){width=100%}
+
 2. Click on “**Data Volumes**” in the left sidebar menu.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png){width=100%}
+
 3. Scroll down the page to find the data volume “**STAC**”. Click on the name to access the dashboard.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png){width=100%}
+
 4. Scroll to the bottom of the page and find the “README.md” file. Click on the three dots, then click “**View/Edit**”.
-5. You should now be able to edit and improve the README file using standard Markdown syntax.                                                                                       
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_81.png){width=100%}
+
+5. You should now be able to edit and improve the README file using standard Markdown syntax.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_87.png){width=100%}
+
                                                                                        
 
 ```r
