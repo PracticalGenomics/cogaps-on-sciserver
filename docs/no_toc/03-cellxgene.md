@@ -27,7 +27,6 @@
 4. Click on “**STAC Administrators**” in the left sidebar menu. You should see your username in the Members list on the right sidebar. You should also have access to the Shared Data Volume “STAC” and Share Compute Image “single-cell-explorer”.     
 
 <img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_24.png" title="Image of SciServer Groups page" alt="Image of SciServer Groups page" width="100%" />
-https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_24
 
 ### Join Genomics Domain
 
