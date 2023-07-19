@@ -52,7 +52,7 @@ CoGAPS can be used to perform sparse matrix factorization on any data. And when 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
 
-![](resources/images/05-CoGAPS_files/figure-docx//1ZNZwjkPcBA1Tgc0zits127DCHKXT8UuRc8VKFUsn0Zw_p.png){width=100%}
+![](resources/images/05-CoGAPS_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_12.png){width=100%}
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong "Compute Image" from the drop-down menu.
 
@@ -402,7 +402,7 @@ FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = "umap") & 
 
 6. Your output should look like this if the run was successful (visible in the bottom right corner of your screen):
 
-![](resources/images/05-CoGAPS_files/figure-docx//1ZNZwjkPcBA1Tgc0zits127DCHKXT8UuRc8VKFUsn0Zw_g257be308528_0_1.png){width=100%}
+![](resources/images/05-CoGAPS_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_1.png){width=100%}
 
 ### Find Pattern Markers
 
@@ -464,7 +464,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-07-07                  
+##  date     2023-07-19                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
