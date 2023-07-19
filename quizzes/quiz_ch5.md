@@ -32,13 +32,13 @@ o) A "run successful" message appears in the Console
 {choose-answers: 1}
 ? What do you need to do if you restart your R session and want to continue your work
 
-o) You need to repeat the *Load Packages* step
-C) You need to start everything over again from the first step
+C) You need to repeat the *Load Packages* step
+o) You need to start everything over again from the first step
 o) You need to repeat the *Load Data* step
 o) You can't do anything, you've already destroyed all your work
 
 {choose-answers: 1}
-? What command is used to start visualizing patterns using CoGAPS results?
+? What command is used to start visualizing patterns using CoGAPS results
 
 C) ```color_palette <- viridis(n=10) FeaturePlot(inputdata, pattern_names, cols=color_palette, reduction = "umap") & NoLegend()```
 o) ```plotPatternHallmarks(hallmarks, whichpattern = 7)```
