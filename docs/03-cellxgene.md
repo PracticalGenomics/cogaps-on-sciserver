@@ -19,7 +19,7 @@
 
 ### Join Genomics Domain
 
-1. Return to the ![SciServer Dashboard](https://apps.sciserver.org/dashboard/).
+1. Return to the [SciServer Dashboard](https://apps.sciserver.org/dashboard/).
 2. Click on "**Science Domains**" in the top menu bar.
 3. In the left sidebar menu titled "Science Domains", click on "**Genomics**".
 4. Beneath the DNA logo image, click the "**Join**" button.
