@@ -13,9 +13,21 @@
 ### Confirm Access
 
 1. Go to [sciserver.org](https://sciserver.org) and click on "**Login to SciServer**".
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_6.png){width=100%}
+
 2. Log in with the SciServer account you created in Part 1.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_11.png){width=100%}
+
 3. Once logged in, you will see options on the top menu bar of the homepage/Dashboard (Home, Files, Groups, and various options for Compute). Confirm that you received and accepted the invitation to the STAC Administrators Group by clicking on “**Groups**” in the top menu bar.
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_18.png){width=100%}
+
 4. Click on “**STAC Administrators**” in the left sidebar menu. You should see your username in the Members list on the right sidebar. You should also have access to the Shared Data Volume “STAC” and Share Compute Image “single-cell-explorer”.     
+
+![](resources/images/03-cellxgene_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_24.png){width=100%}
+https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_24
 
 ### Join Genomics Domain
 
