@@ -32,7 +32,13 @@
 
 1. Return to the [SciServer Dashboard](https://apps.sciserver.org/dashboard/).
 2. Click on "**Science Domains**" in the top menu bar.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_33.png" title="Image of SciServer Dashboard" alt="Image of SciServer Dashboard" width="100%" />
+
 3. In the left sidebar menu titled "Science Domains", click on "**Genomics**".
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_39.png" title="Image of Science Domains page" alt="Image of Science Domains page" width="100%" />
+
 4. Beneath the DNA logo image, click the "**Join**" button.
 
 <img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_0.png" title="Image of Genomics page" alt="Image of Genomics page" width="100%" />
@@ -40,10 +46,25 @@
 ### Launch cellxgene
 
 1. In order to explore the available datasets, click on “**Files**” in the top menu bar.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_45.png" title="Image of Files page" alt="Image of Files page" width="100%" />
+
 2. Click on “**Data Volumes**” in the left sidebar menu. 
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png" title="Image of Data Volumes submenu" alt="Image of Data Volumes submenu" width="100%" />
+
 3. Scroll down the page to find the data volume “**STAC**”. Click on the name to access the dashboard.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png" title="Image of STAC Data Volume highlighted" alt="Image of STAC Data Volume highlighted" width="100%" />
+
 4. Under the “Available datasets” heading, click on “**PDAC [cellxgene]**”.
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_63.png" title="Image of PDAC dataset highlighted" alt="Image of PDAC dataset highlighted" width="100%" />
+
 5. cellxgene should now launch with your dataset of interest ready to explore!
+
+<img src="resources/images/03-cellxgene_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_69.png" title="Image of cellxgene window" alt="Image of cellxgene window" width="100%" />
+
 
 ### Edit Dashboard
 
