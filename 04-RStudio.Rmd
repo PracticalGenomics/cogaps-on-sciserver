@@ -20,20 +20,57 @@ Before beginning this assignment, you should have already created a SciServer ac
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
 
+```{r, fig.alt="Image of SciServer landing page", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_6")
+```
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you’re already logged in, click “**Home**” in the top menu bar to return to the home page.
 
+```{r, fig.alt="Image of SciServer Dashboard with Home highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_0")
+```
+
 2. Scroll down to the second set of boxes and click “**Compute**”.
+
+```{r, fig.alt="Image of SciServer Dashboard with Compute highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_6")
+```
+
 3. Click "**Create container**".
+
+```{r, fig.alt="Image of the Compute page with Create Container highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_12")
+```
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell your containers apart. You could name this container “RStudio”, since you’ll be using it to access RStudio.
+
+```{r, fig.alt="Image of the Compute page with Container name highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_18")
+```
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. In the “**Compute Image**” drop-down menu, select “**C-MOOR RStudio**”.
+
+```{r, fig.alt="Image of the Compute page with C-MOOR RStudio highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_24")
+```
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Under “**Data Volumes**”, check the box next to “**C-MOOR Data**”.
+
+```{r, fig.alt="Image of the Compute page with C-MOOR Data highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_30")
+```
  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d. Click “**Create**”. This may take a moment.
 
+```{r, fig.alt="Image of the Compute page with Create button highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_36")
+```
+
 4. You should now see a new entry in your list of containers.
+
+```{r, fig.alt="Image of the Compute page with arrows pointing at the container creation time/date, container name, and the container image name", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_42")
+```
  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. “Created At” should be a few moments ago.
 
@@ -41,15 +78,25 @@ Before beginning this assignment, you should have already created a SciServer ac
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. “Image” should be “C-MOOR RStudio".
 
-5. Start your C-MOOR RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab. 
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
+5. Start your C-MOOR RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab.
 
-![RStudio startup screen](/cogaps-on-sciserver/resources/images/RStudio.png)
+```{r, fig.alt="Image of the Compute page with the container name highlighted", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_50")
+```
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio in this new tab.
+
+```{r, fig.alt="Image of RStudio screen", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25954290abf_0_12")
+```
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.
 
 **If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.**
+
+```{r, fig.alt="Image of the Compute page with an arrow pointing to the red X button", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_57")
+```
 
 ### Complete your first swirl tutorial
 
@@ -92,6 +139,8 @@ Before beginning this assignment, you should have already created a SciServer ac
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Follow the instructions provided by swirl to complete the lesson.
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d. When you get to the end, it will ask if you want credit on Coursera. Choose “**No**” (we are not using Coursera for this course).
+
+6. Congratulations! You have successfully completed the first lesson in swirl, Basic Building Blocks!
 
 ### Managing your C-MOOR RStudio compute container
 
