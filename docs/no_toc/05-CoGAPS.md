@@ -30,17 +30,31 @@ CoGAPS can be used to perform sparse matrix factorization on any data. And when 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you're already logged in, click "**Home**" in the top menu bar to return to the home page.
 
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_0.png" title="Image of SciServer Dashboard with Home highlighted" alt="Image of SciServer Dashboard with Home highlighted" width="100%" />
+
 2. Scroll down to the second set of boxes and click "**Compute**".
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_6.png" title="Image of SciServer Dashboard with Compute highlighted" alt="Image of SciServer Dashboard with Compute highlighted" width="100%" />
 
 3. Click "**Create container**"
 
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_12.png" title="Image of the Compute page with Create container highlighted" alt="Image of the Compute page with Create container highlighted" width="100%" />
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell your containers apart. You could name this container “CoGAPS”, since you’ll be using it to run CoGAPS.
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_63.png" title="Image of the Compute page with the container name highlighted" alt="Image of the Compute page with the container name highlighted" width="100%" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. In the “**Compute Image**” drop-down menu, select “**R [version #] (RStudio)**” (there may be multiple versions of R in this drop-down menu; click on the latest version listed).
 
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_69.png" title="Image of the Compute page with the RStudio compute image highlighted" alt="Image of the Compute page with the RStudio compute image highlighted" width="100%" />
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Click "**Create**". This may take a moment.
 
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_74.png" title="Image of the Compute page with the Create button highlighted" alt="Image of the Compute page with the Create button highlighted" width="100%" />
+
 4. You should now see a new entry in your list of containers.
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_81.png" title="Image of the Compute page with arrows pointing to the date/time of container's creation, its name, and the container image" alt="Image of the Compute page with arrows pointing to the date/time of container's creation, its name, and the container image" width="100%" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. "Created at" should be a few moments ago.
 
@@ -50,13 +64,17 @@ CoGAPS can be used to perform sparse matrix factorization on any data. And when 
 
 5. Start your CoGAPS RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_89.png" title="Image of the Compute page with the container name highlighted" alt="Image of the Compute page with the container name highlighted" width="100%" />
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio in this new tab.
 
 <img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_12.png" title="Image of RStudio screen" alt="Image of RStudio screen" width="100%" />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong "Compute Image" from the drop-down menu.
 
 **If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.**
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_95.png" title="Image of the Compute page with an arrow pointing to the red X button" alt="Image of the Compute page with an arrow pointing to the red X button" width="100%" />
 
 ### Update rlang
 
@@ -87,6 +105,10 @@ devtools::install_github("sjmgarnier/viridis")
 ```
 
 4. Once the red “STOP” symbol is no longer visible in the top right hand corner of the Console, the installation is complete.
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_102.png" title="Image of the red STOP sign in RStudio, indicating that installation is still in progress" alt="Image of the red STOP sign in RStudio, indicating that installation is still in progress" width="100%" />
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_109.png" title="Image of the red STOP sign no longer visible in RStudio, indicating that installation is complete" alt="Image of the red STOP sign no longer visible in RStudio, indicating that installation is complete" width="100%" />
 
 5. Enter and run this command:
 
