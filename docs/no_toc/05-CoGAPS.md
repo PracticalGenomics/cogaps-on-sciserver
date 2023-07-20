@@ -470,6 +470,12 @@ sessionInfo()
 
 [CoGAPS Guide Website](https://fertiglab.github.io/CoGAPSGuide/)
 
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_8.png" title="Image of the CoGAPS Guide website homepage" alt="Image of the CoGAPS Guide website homepage" width="100%" />
+
+[CoGAPS R Guide](https://fertiglab.github.io/CoGAPSGuide/proceduretwo/)
+
+<img src="resources/images/05-CoGAPS_files/figure-html//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_116.png" title="Image of the R CoGAPS API page" alt="Image of the R CoGAPS API page" width="100%" />
+
 
 ```r
 devtools::session_info()
