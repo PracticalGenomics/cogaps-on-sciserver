@@ -470,6 +470,12 @@ sessionInfo()
 
 [CoGAPS Guide Website](https://fertiglab.github.io/CoGAPSGuide/)
 
+![](resources/images/05-CoGAPS_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_8.png){width=100%}
+
+[CoGAPS R Guide](https://fertiglab.github.io/CoGAPSGuide/proceduretwo/)
+
+![](resources/images/05-CoGAPS_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_116.png){width=100%}
+
 
 ```r
 devtools::session_info()
