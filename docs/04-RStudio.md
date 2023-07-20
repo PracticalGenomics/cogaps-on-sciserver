@@ -18,20 +18,39 @@ Before beginning this assignment, you should have already created a SciServer ac
 
 1. Open [sciserver.org](https://sciserver.org) in a web browser and log in to your account.
 
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_6.png){width=100%}
+
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. If you’re already logged in, click “**Home**” in the top menu bar to return to the home page.
 
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_0.png){width=100%}
+
 2. Scroll down to the second set of boxes and click “**Compute**”.
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_6.png){width=100%}
+
 3. Click "**Create container**".
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_12.png){width=100%}
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Give your container a name. This can be anything you like, but it’s useful if it says something about the purpose of the container so that you can tell your containers apart. You could name this container “RStudio”, since you’ll be using it to access RStudio.
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_18.png){width=100%}
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. In the “**Compute Image**” drop-down menu, select “**C-MOOR RStudio**”.
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_24.png){width=100%}
   
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. Under “**Data Volumes**”, check the box next to “**C-MOOR Data**”.
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_30.png){width=100%}
  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d. Click “**Create**”. This may take a moment.
 
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_36.png){width=100%}
+
 4. You should now see a new entry in your list of containers.
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_42.png){width=100%}
  
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. “Created At” should be a few moments ago.
 
@@ -39,15 +58,19 @@ Before beginning this assignment, you should have already created a SciServer ac
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c. “Image” should be “C-MOOR RStudio".
 
-5. Start your C-MOOR RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab. 
-  
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio.
+5. Start your C-MOOR RStudio container by clicking on its **name** (whatever name you chose when you created the container). This will open in a new tab.
 
-![RStudio startup screen](/cogaps-on-sciserver/resources/images/RStudio.png)
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_50.png){width=100%}
+  
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. You should see RStudio in this new tab.
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_12.png){width=100%}
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. If you see something else, you may have picked the wrong “Compute Image” from the drop-down menu.
 
 **If anything goes wrong, you can always delete your container by clicking the red “X” in the last column, and create a new container.**
+
+![](resources/images/04-RStudio_files/figure-docx//16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a927a7c80_0_57.png){width=100%}
 
 ### Complete your first swirl tutorial
 
@@ -91,6 +114,8 @@ Before beginning this assignment, you should have already created a SciServer ac
 
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; d. When you get to the end, it will ask if you want credit on Coursera. Choose “**No**” (we are not using Coursera for this course).
 
+6. Congratulations! You have successfully completed the first lesson in swirl, Basic Building Blocks!
+
 ### Managing your C-MOOR RStudio compute container
 
 If you delete your container now, you will lose **all** your progress in swirl. If you need to return to any part of the tutorial later, it is a good idea to keep the container until you are sure that you’re finished using it.
@@ -111,7 +136,7 @@ devtools::session_info()
 ##  collate  en_US.UTF-8                 
 ##  ctype    en_US.UTF-8                 
 ##  tz       Etc/UTC                     
-##  date     2023-07-19                  
+##  date     2023-07-20                  
 ## 
 ## ─ Packages ───────────────────────────────────────────────────────────────────
 ##  package     * version date       lib source                            
@@ -121,6 +146,7 @@ devtools::session_info()
 ##  callr         3.5.0   2020-10-08 [1] RSPM (R 4.0.2)                    
 ##  cli           3.6.1   2023-03-23 [1] CRAN (R 4.0.2)                    
 ##  crayon        1.3.4   2017-09-16 [1] RSPM (R 4.0.0)                    
+##  curl          4.3     2019-12-02 [1] RSPM (R 4.0.3)                    
 ##  desc          1.2.0   2018-05-01 [1] RSPM (R 4.0.3)                    
 ##  devtools      2.3.2   2020-09-18 [1] RSPM (R 4.0.3)                    
 ##  digest        0.6.25  2020-02-23 [1] RSPM (R 4.0.0)                    
@@ -132,6 +158,7 @@ devtools::session_info()
 ##  glue          1.4.2   2020-08-27 [1] RSPM (R 4.0.5)                    
 ##  hms           0.5.3   2020-01-08 [1] RSPM (R 4.0.0)                    
 ##  htmltools     0.5.5   2023-03-23 [1] CRAN (R 4.0.2)                    
+##  httr          1.4.2   2020-07-20 [1] RSPM (R 4.0.3)                    
 ##  knitr         1.33    2023-03-28 [1] Github (yihui/knitr@a1052d1)      
 ##  lifecycle     1.0.3   2022-10-07 [1] CRAN (R 4.0.2)                    
 ##  magrittr      2.0.3   2022-03-30 [1] CRAN (R 4.0.2)                    
