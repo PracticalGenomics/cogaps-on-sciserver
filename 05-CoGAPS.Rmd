@@ -498,6 +498,16 @@ sessionInfo()
 
 [CoGAPS Guide Website](https://fertiglab.github.io/CoGAPSGuide/)
 
+```{r, fig.alt="Image of the CoGAPS Guide website homepage", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25954290abf_0_8")
+```
+
+[CoGAPS R Guide](https://fertiglab.github.io/CoGAPSGuide/proceduretwo/)
+
+```{r, fig.alt="Image of the R CoGAPS API page", out.width = "100%", echo = FALSE}
+ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_116")
+```
+
 ```{r}
 devtools::session_info()
 ```
