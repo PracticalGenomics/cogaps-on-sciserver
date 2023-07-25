@@ -6,38 +6,38 @@
 Based on what you've learned in this chapter, choose the best answer.
 
 {choose-answers: 1}
-? The main purpose of SciServer is _____?
+? The main purpose of SciServer is _____
 
-C) to provide free access to big data resources for researchers worldwide.
-m) for developing websites and software.
-m) to edit images.
-m) to support high-volume and multithreading applications.
-m) All of the above
-
-{choose-answers: 1}
-? What are the benefits of using SciServer for data analysis
-
-m) You can use it for scientific research without needing a powerful computer.
-m) You can access customized collections of programs for RNA-seq analysis.
-m) You can easily collaborate with other researchers through SciServer.
-C) All of the above
+A) to provide free access to big data resources for researchers worldwide.
+b) for developing websites and software.
+c) to edit images.
+d) to support high-volume and multithreading applications.
+e) All of the above
 
 {choose-answers: 1}
-? What happens if you don't verify your SciServer account through the email link
+? What are the benefits of using SciServer for data analysis?
 
-m) You will lose access to your account permanently.
-m) Your account will be suspended temporarily.
+a) You can use it for scientific research without needing a powerful computer.
+b) You can access customized collections of programs for RNA-seq analysis.
+c) You can easily collaborate with other researchers through SciServer.
+D) All of the above
+
+{choose-answers: 1}
+? What happens if you don't verify your SciServer account through the email link?
+
+a) You will lose access to your account permanently.
+b) Your account will be suspended temporarily.
 C) You will be locked out of your account and need to contact your instructor.
-m) You will still be able to use SciServer but with limited features.
-m) All of the above
+d) You will still be able to use SciServer but with limited features.
+e) All of the above
 
 {choose-answers: 1}
-? What does it indicate when your username appears on the upper right-hand corner of the webpage
+? What does it indicate when your username appears on the upper right-hand corner of the webpage?
 
-m) Your account is locked.
-m) You need to contact your course instructor.
-m) You can access any and all course materials.
-C) Your account is verified and active.
-m) All of the above
+a) Your account is locked.
+b) You need to contact your course instructor.
+c) You can access any and all course materials.
+D) Your account is verified and active.
+e) All of the above
 
 {/quiz}
