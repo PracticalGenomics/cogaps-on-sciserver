@@ -24,6 +24,3 @@ The course covers:
 - How to load packages, data, configure/run CoGAPS, visualize patterns, find pattern markers, and document software in RStudio
 
 
-```{r}
-devtools::session_info()
-```
