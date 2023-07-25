@@ -6,92 +6,92 @@
 Based on what you've learned in this chapter, choose the best answer.
 
 {choose-answers: 1}
-? What is the name of the first swirl lesson
+? What is the name of the first swirl lesson?
 
-o) Simulation
-C) Basic Building Blocks
-o) Looking at Data
-o) New Concepts
-
-{choose-answers: 1}
-? In R, what is a sequence of data elements of the same basic type called
-
-C) Vector
-o) Data frame
-o) Array
-o) List
+a) Simulation
+B) Basic Building Blocks
+c) Looking at Data
+d) New Concepts
 
 {choose-answers: 1}
-? What is the primary data structure in R that can hold multiple values of different types
+? In R, what is a sequence of data elements of the same basic type called?
 
-o) Vector
-C) List
-o) Array
-o) Data frame
+A) Vector
+b) Data frame
+c) Array
+d) List
+
+{choose-answers: 1}
+? What is the primary data structure in R that can hold multiple values of different types?
+
+a) Vector
+B) List
+c) Array
+d) Data frame
 
 {choose-answers}
-? In R, which function is used to display the contents of an object
+? In R, which function is used to display the contents of an object?
 
-o) show()
-o) display()
+a) show()
+b) display()
 C) print()
-o) output()
+d) output()
 
 {choose-answers: 1}
-? Which symbol(s) is used in R to assign a value to a variable
+? Which symbol(s) is used in R to assign a value to a variable?
 
-C) <- or =
-o) << or <
-o) -> or >
-o) : or ;
+A) <- or =
+b) << or <
+c) -> or >
+d) : or ;
 
 {choose-answers: 1}
-? What is the correct syntax to create a vector named "my_vector" with the values 1, 2, 3 in R
+? What is the correct syntax to create a vector named "my_vector" with the values 1, 2, 3 in R?
 
-o) ```my_vector <- [1, 2, 3]```
-o) ```my_vector <- (1, 2, 3)```
+a) ```my_vector <- [1, 2, 3]```
+b) ```my_vector <- (1, 2, 3)```
 C) ```my_vector <- c(1, 2, 3)```
-o) ```my_vector <- {1, 2, 3}```
+d) ```my_vector <- {1, 2, 3}```
 
 {choose-answers: 1}
-? What is the correct way to define a variable named "my_variable" with the value 10 in R
+? What is the correct way to define a variable named "my_variable" with the value 10 in R?
 
-C) ```my_variable <- 10```
-o) ```my_variable = 10```
-o) ```10 -> my_variable```
-o) ```let my_variable = 10```
-
-{choose-answers: 1}
-? What is the result of the following expression in R: 5 * 2 - 3 / 4 + 1
-
-o) 9.25
-C) 9.75
-o) 10.25
-o) 8.75
+A) ```my_variable <- 10```
+b) ```my_variable = 10```
+c) ```10 -> my_variable```
+d) ```let my_variable = 10```
 
 {choose-answers: 1}
-? What does the ```rep()``` function in R do
+? What is the result of the following expression in R: 5 * 2 - 3 / 4 + 1 ?
 
-C) Repeats a sequence of numbers
-o) Replaces missing values in a dataset
-o) R begins playing the album, *reputation*, by Taylor Swift
-o) Removes duplicates from a vector
-o) Repairs the incorrect vector when a mistake is made
-
-{choose-answers: 1}
-? Which of the following is a valid way to create a matrix in R
-
-C) ```matrix(1:9, ncol = 3, nrow = 3)```
-o) ```matrix(c(1, 2, 3), ncol = 3, nrow = 3)```
-o) ```matrix(1:3, 3, 3)```
-o) ```matrix(c(1, 2, 3), dim = (3, 3))```
+a) 9.25
+B) 9.75
+c) 10.25
+d) 8.75
 
 {choose-answers: 1}
-? Why is it recommended to keep the C-MOOR RStudio compute container until you finish using it
+? What does the ```rep()``` function in R do?
 
-o) To save your progress in swirl
-o) So that you can come back and complete the tutorial from where you left off
-o) To prevent any issues with the swirl tutorial
-C) All of the above
+A) Repeats a sequence of numbers
+b) Replaces missing values in a dataset
+c) R begins playing the album, *reputation*, by Taylor Swift
+d) Removes duplicates from a vector
+e) Repairs the incorrect vector when a mistake is made
+
+{choose-answers: 1}
+? Which of the following is a valid way to create a matrix in R?
+
+A) ```matrix(1:9, ncol = 3, nrow = 3)```
+b) ```matrix(c(1, 2, 3), ncol = 3, nrow = 3)```
+c) ```matrix(1:3, 3, 3)```
+d) ```matrix(c(1, 2, 3), dim = (3, 3))```
+
+{choose-answers: 1}
+? Why is it recommended to keep the C-MOOR RStudio compute container until you finish using it?
+
+a) To save your progress in swirl
+b) So that you can come back and complete the tutorial from where you left off
+c) To prevent any issues with the swirl tutorial
+D) All of the above
 
 {/quiz}
