@@ -123,8 +123,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ
 ```{r, fig.alt="Image of README file editor", out.width = "100%", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a5f9f2e31_0_87")
 ```
-
-                                                                                       
-```{r}
-devtools::session_info()
-```
