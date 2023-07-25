@@ -507,7 +507,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ
 ```{r, fig.alt="Image of the R CoGAPS API page", out.width = "100%", echo = FALSE}
 ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk/edit#slide=id.g25a927a7c80_0_116")
 ```
-
-```{r}
-devtools::session_info()
-```
