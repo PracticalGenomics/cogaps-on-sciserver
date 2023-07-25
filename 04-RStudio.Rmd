@@ -145,7 +145,3 @@ ottrpal::include_slide("https://docs.google.com/presentation/d/16jh1ov1PyRyPKMTJ
 ### Managing your C-MOOR RStudio compute container
 
 If you delete your container now, you will lose **all** your progress in swirl. If you need to return to any part of the tutorial later, it is a good idea to keep the container until you are sure that you’re finished using it.
-
-```{r}
-devtools::session_info()
-```
