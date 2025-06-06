@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 cellxgene | CoGAPS on SciServer</title>
   <meta name="description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 cellxgene | CoGAPS on SciServer" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="This introductory course will provide a quick overview of how CoGAPS can be run in RStudio through the SciServer compute platform." />
   
@@ -31,7 +30,6 @@
   <link rel="shortcut icon" href="assets/dasl_favicon.ico" type="image/x-icon" />
 <link rel="prev" href="getting-started-with-sciserver.html"/>
 <link rel="next" href="rrstudio.html"/>
-<script src="libs/header-attrs-2.10/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -49,11 +47,16 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
 
 <link rel="stylesheet" href="assets/style.css" type="text/css" />
 </head>
@@ -170,98 +173,98 @@
 <div class="hero-image-container">
   <img class= "hero-image" src= "https://github.com/jhudsl/OTTR_Template/raw/main/assets/dasl_thin_main_image.png">
 </div>
-<div id="cellxgene" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> cellxgene</h1>
-<div id="learning-objectives-1" class="section level2" number="3.1">
-<h2><span class="header-section-number">3.1</span> Learning Objectives</h2>
+<div id="cellxgene" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> cellxgene<a href="cellxgene.html#cellxgene" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="learning-objectives-1" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Learning Objectives<a href="cellxgene.html#learning-objectives-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>Confirm access to STAC Administrators Group</li>
 <li>Launch cellxgene</li>
 <li>Edit SciServer Dashboard</li>
 </ul>
 </div>
-<div id="instructions" class="section level2" number="3.2">
-<h2><span class="header-section-number">3.2</span> Instructions</h2>
-<div id="confirm-access" class="section level3" number="3.2.1">
-<h3><span class="header-section-number">3.2.1</span> Confirm Access</h3>
+<div id="instructions" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Instructions<a href="cellxgene.html#instructions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="confirm-access" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Confirm Access<a href="cellxgene.html#confirm-access" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>Go to <a href="https://sciserver.org">sciserver.org</a> and click on “<strong>Login to SciServer</strong>”.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_6.png" title="Image of SciServer landing page" alt="Image of SciServer landing page" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_6.png" alt="Image of SciServer landing page" width="100%" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Log in with the SciServer account you created in Part 1.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_11.png" title="Image of SciServer login page" alt="Image of SciServer login page" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_11.png" alt="Image of SciServer login page" width="100%" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Once logged in, you will see options on the top menu bar of the homepage/Dashboard (Home, Files, Groups, and various options for Compute). Confirm that you received and accepted the invitation to the STAC Administrators Group by clicking on “<strong>Groups</strong>” in the top menu bar.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_18.png" title="Image of SciServer Dashboard" alt="Image of SciServer Dashboard" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_18.png" alt="Image of SciServer Dashboard" width="100%" /></p>
 <ol start="4" style="list-style-type: decimal">
 <li>Click on “<strong>STAC Administrators</strong>” in the left sidebar menu. You should see your username in the Members list on the right sidebar. You should also have access to the Shared Data Volume “STAC” and Share Compute Image “single-cell-explorer”.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_24.png" title="Image of SciServer Groups page" alt="Image of SciServer Groups page" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_24.png" alt="Image of SciServer Groups page" width="100%" /></p>
 </div>
-<div id="join-genomics-domain" class="section level3" number="3.2.2">
-<h3><span class="header-section-number">3.2.2</span> Join Genomics Domain</h3>
+<div id="join-genomics-domain" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Join Genomics Domain<a href="cellxgene.html#join-genomics-domain" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>Return to the <a href="https://apps.sciserver.org/dashboard/">SciServer Dashboard</a>.</li>
 <li>Click on “<strong>Science Domains</strong>” in the top menu bar.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_33.png" title="Image of SciServer Dashboard" alt="Image of SciServer Dashboard" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_33.png" alt="Image of SciServer Dashboard" width="100%" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>In the left sidebar menu titled “Science Domains”, click on “<strong>Genomics</strong>”.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_39.png" title="Image of Science Domains page" alt="Image of Science Domains page" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_39.png" alt="Image of Science Domains page" width="100%" /></p>
 <ol start="4" style="list-style-type: decimal">
 <li>Beneath the DNA logo image, click the “<strong>Join</strong>” button.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_0.png" title="Image of Genomics page" alt="Image of Genomics page" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25954290abf_0_0.png" alt="Image of Genomics page" width="100%" /></p>
 </div>
-<div id="launch-cellxgene" class="section level3" number="3.2.3">
-<h3><span class="header-section-number">3.2.3</span> Launch cellxgene</h3>
+<div id="launch-cellxgene" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Launch cellxgene<a href="cellxgene.html#launch-cellxgene" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>In order to explore the available datasets, click on “<strong>Files</strong>” in the top menu bar.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_45.png" title="Image of Files page" alt="Image of Files page" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_45.png" alt="Image of Files page" width="100%" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Click on “<strong>Data Volumes</strong>” in the left sidebar menu.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png" title="Image of Data Volumes submenu" alt="Image of Data Volumes submenu" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png" alt="Image of Data Volumes submenu" width="100%" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Scroll down the page to find the data volume “<strong>STAC</strong>”. Click on the name to access the dashboard.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png" title="Image of STAC Data Volume highlighted" alt="Image of STAC Data Volume highlighted" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png" alt="Image of STAC Data Volume highlighted" width="100%" /></p>
 <ol start="4" style="list-style-type: decimal">
 <li>Under the “Available datasets” heading, click on “<strong>PDAC <a href="cellxgene.html#cellxgene">cellxgene</a></strong>”.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_63.png" title="Image of PDAC dataset highlighted" alt="Image of PDAC dataset highlighted" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_63.png" alt="Image of PDAC dataset highlighted" width="100%" /></p>
 <ol start="5" style="list-style-type: decimal">
 <li>cellxgene should now launch with your dataset of interest ready to explore!</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_69.png" title="Image of cellxgene window" alt="Image of cellxgene window" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_69.png" alt="Image of cellxgene window" width="100%" /></p>
 </div>
-<div id="edit-dashboard" class="section level3" number="3.2.4">
-<h3><span class="header-section-number">3.2.4</span> Edit Dashboard</h3>
+<div id="edit-dashboard" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> Edit Dashboard<a href="cellxgene.html#edit-dashboard" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ol style="list-style-type: decimal">
 <li>Click on “<strong>Files</strong>” in the top menu bar.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_75.png" title="Image of Files highlighted in the menu bar" alt="Image of Files highlighted in the menu bar" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_75.png" alt="Image of Files highlighted in the menu bar" width="100%" /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Click on “<strong>Data Volumes</strong>” in the left sidebar menu.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png" title="Image of Data Volumes highlighted" alt="Image of Data Volumes highlighted" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_51.png" alt="Image of Data Volumes highlighted" width="100%" /></p>
 <ol start="3" style="list-style-type: decimal">
 <li>Scroll down the page to find the data volume “<strong>STAC</strong>”. Click on the name to access the dashboard.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png" title="Image of STAC data volume highlighted" alt="Image of STAC data volume highlighted" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_57.png" alt="Image of STAC data volume highlighted" width="100%" /></p>
 <ol start="4" style="list-style-type: decimal">
 <li>Scroll to the bottom of the page and find the “README.md” file. Click on the three dots, then click “<strong>View/Edit</strong>”.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_81.png" title="Image of View/Edit option highlighted" alt="Image of View/Edit option highlighted" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_81.png" alt="Image of View/Edit option highlighted" width="100%" /></p>
 <ol start="5" style="list-style-type: decimal">
 <li>You should now be able to edit and improve the README file using standard Markdown syntax.</li>
 </ol>
-<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_87.png" title="Image of README file editor" alt="Image of README file editor" width="100%" /></p>
+<p><img src="resources/images/03-cellxgene_files/figure-html/16jh1ov1PyRyPKMTJ7ROiEyNm1B5KxdQlYQovVBCYesk_g25a5f9f2e31_0_87.png" alt="Image of README file editor" width="100%" /></p>
 
 </div>
 </div>

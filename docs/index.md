@@ -1,6 +1,6 @@
 ---
 title: "CoGAPS on SciServer"
-date: "July, 2023"
+date: "June, 2025"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib]
